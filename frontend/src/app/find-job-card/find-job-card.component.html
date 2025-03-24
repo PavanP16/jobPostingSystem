@@ -1,0 +1,74 @@
+<div
+  class="shadow-xl w-[45vw] h-fit p-4 rounded border border-gray-100 bg-white"
+>
+  <div class="flex items-center justify-between">
+    <div
+      class="border border-gray-300 max-h-8 rounded-md flex items-center px-2 gap-1 pt-2"
+    >
+      <ng-icon
+        name="heroArrowTrendingUp"
+        class="-mt-1 text-lg"
+        color="oklch(0.723 0.219 149.579)"
+      />
+      <p class="mt-2 text-sm tracking-wide">Hiring</p>
+    </div>
+  </div>
+  <div class="flex justify-between items-center mt-3">
+    <div class="flex flex-col gap-1">
+      <h2 class="tracking-wide text-xl font-bold">Software Engineer</h2>
+      <h6 class="font-bold tracking-wide" style="color: #99a1af">
+        Ultimate Kronos Group
+      </h6>
+    </div>
+  </div>
+
+  <div class="-mt-6">
+    <div class="flex flex-wrap mt-5 gap-8">
+      <div class="flex flex-col gap-2">
+        <div class="flex gap-1">
+          <ng-icon
+            name="heroCalendarDateRange"
+            class="text-lg mt-[0.1rem]"
+            color="#3b82f6"
+          />
+          <span class="text-sm font-medium text-zinc-500 tracking-wide"
+            >Joining Date</span
+          >
+        </div>
+        <p class="ml-1 text-sm font-thin">25th July, 2025</p>
+      </div>
+      <div class="flex flex-col gap-2">
+        <div class="flex gap-1">
+          <ng-icon
+            name="heroCurrencyDollar"
+            class="text-lg mt-[0.1rem]"
+            color="oklch(0.769 0.188 70.08)"
+          />
+          <span class="text-sm font-medium text-zinc-500 tracking-wide"
+            >Salary</span
+          >
+        </div>
+        <p class="ml-1 text-sm font-thin tracking-wide">₹ 5000</p>
+      </div>
+      <div class="flex flex-col gap-2">
+        <div class="flex gap-1">
+          <i class="bi bi-hourglass -mt-1" color="#000000" size="16"></i>
+          <span class="text-sm font-medium text-zinc-500 tracking-wide"
+            >Experience</span
+          >
+        </div>
+        <p class="ml-1 text-sm font-thin tracking-wide">5 Years</p>
+      </div>
+    </div>
+
+    <hr class="text-black" />
+    <div className="flex justify-end bg-red-400">
+      <button
+        class="bg-gray-800 hover:bg-gray-600 text-white tracking-wider py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+        (onclick)="handleClick"
+      >
+        Apply
+      </button>
+    </div>
+  </div>
+</div>

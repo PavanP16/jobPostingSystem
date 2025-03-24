@@ -18,8 +18,8 @@ export const routes: Routes = [
   {
     path: 'create-job-portal',
     component: CreateJobPortalComponent,
-    canActivate: [AuthGuard],
-    data: { roles: ['admin'] } 
+    // canActivate: [AuthGuard],
+    // data: { roles: ['admin'] } 
   },
   {
     path: 'list-job-portals',

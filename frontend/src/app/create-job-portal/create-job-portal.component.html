@@ -1,1 +1,77 @@
-<p>create-job-portal works!</p>
+<form (ngSubmit)="onSubmit()">
+  <div class="w-[60vw] h-[70vh] mx-auto mt-8 border p-4 rounded">
+    <h2 class="text-2xl font-semibold mb-4">Job Posting Form</h2>
+
+    <!-- Job Title -->
+    <div class="mb-4">
+      <label for="jobTitle" class="block text-gray-600">Job Title</label>
+      <input
+        formControlName="jobTitle"
+        id="jobTitle"
+        type="text"
+        class="form-input mt-2 block w-[30vw] outline-none border rounded-lg focus:border-gray-500 p-2"
+        required
+      />
+    </div>
+
+    <!-- Company Name -->
+    <div class="mb-4">
+      <label for="companyName" class="block text-gray-600">Company Name</label>
+      <input
+        formControlName="companyName"
+        id="companyName"
+        type="text"
+        class="form-input mt-2 block w-[30vw] outline-none border rounded-lg focus:border-gray-500 p-2"
+        required
+      />
+    </div>
+
+    <!-- Joining Date -->
+    <div class="mb-4">
+      <label for="joiningDate" class="block text-gray-600">Joining Date</label>
+      <input
+        formControlName="joiningDate"
+        id="joiningDate"
+        type="date"
+        class="form-input mt-2 block w-fit outline-none border rounded-lg focus:border-gray-500 p-2"
+        required
+      />
+    </div>
+
+    <!-- Salary -->
+    <div class="mb-4">
+      <label for="salary" class="block text-gray-600">Salary</label>
+      <input
+        formControlName="salary"
+        id="salary"
+        type="number"
+        class="form-input mt-2 block w-[30vw] outline-none border rounded-lg focus:border-gray-500 p-2"
+        required
+      />
+    </div>
+
+    <!-- Experience -->
+    <div class="mb-4">
+      <label for="experience" class="block text-gray-600"
+        >Experience (Years)</label
+      >
+      <input
+        formControlName="experience"
+        id="experience"
+        type="number"
+        class="form-input mt-2 block w-[30vw] outline-none border rounded-lg focus:border-gray-500 p-2"
+        required
+      />
+    </div>
+
+    <!-- Submit Button -->
+    <div class="mt-16">
+      <button
+        type="submit"
+        class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600"
+      >
+        Post Job
+      </button>
+    </div>
+  </div>
+</form>

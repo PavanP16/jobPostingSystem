@@ -6,7 +6,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export class ApiService {
 
-  private apiUrl = 'http://localhost:8080'; // Replace with your backend URL
+  private apiUrl = 'http://localhost:8080';
 
   constructor(private http: HttpClient) { }
 

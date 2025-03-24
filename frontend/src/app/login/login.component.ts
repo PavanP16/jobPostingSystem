@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { toast } from 'ngx-sonner';
 
 @Component({
   selector: 'app-login',
@@ -7,5 +8,5 @@ import { Component } from '@angular/core';
   styleUrl: './login.component.css'
 })
 export class LoginComponent {
-
+  protected readonly toast = toast;
 }

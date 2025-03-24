@@ -1,0 +1,3728 @@
+{
+    "Tracer Date Range": {
+      "Start Date": "1/07/2025",
+      "End Date": "1/09/2025"
+    },
+    "Tracer Totalizer Input": {
+      "Person Details": {
+        "correctionIncludedInTotals": true,
+        "signoffRequested": false,
+        "Person Id": "110556",
+        "Full Name": "Adam, Michael",
+        "Has Employment Terms": false,
+        "Accrual Profile": "Vac Pers Sick",
+        "Holiday Profiles": "{-1405= [NullHolidayProfileData 1/01/1753 - 1/01/3000]}",
+        "Pay Period": "[FixedLengthPayPeriod: 14 days, reference date: 1/05/2015, day divide: 0:00]",
+        "Time Zone": "(GMT -05:00) Eastern Time",
+        "Employment Term Data": "",
+        "Contract Schedule": false,
+        "Requires Contract Hours": true,
+        "Is Correction Included In Totals": true,
+        "Is Signoff Requested": false,
+        "Should Qualify Signoff": false,
+        "Is Employee Terminated": false
+      },
+      "Person Dates": {
+        "Hire Date": "4/18/2017",
+        "Payroll Lock Date": "1/01/1901",
+        "Sign Off Date": "1/01/1901",
+        "Actual Lock Date (CF)": "1/01/1901",
+        "Last Change TimeStamp": "1/08/2025 13:04",
+        "Edits Allowed Date Time": "1/01/1900 0:00"
+      },
+      "Most Recent Carryforward": {
+        "Holiday Edits": [],
+        "Last Event Date": "1/01/1900 0:00",
+        "Last Actual Event Date": "",
+        "Lookback Lock Date": "1/01/1900",
+        "Lock Date": "1/01/1900",
+        "Last Worked Shift Id": "null",
+        "Locked Half Shifts": []
+      },
+      "Employment Status History": {
+        "Status": "[INACTIVE: 1/01/1753 - 4/17/2017, ACTIVE: 4/18/2017 - 12/31/2999]"
+      },
+      "Pay Rule": {
+        "Name": "",
+        "Pay Rule Data": {
+          "Revision": "1/01/1753 - 1/01/3000",
+          "Default Work Rule": "Manufacturing",
+          "Default Work Rule Id": 62,
+          "Fixed Rule": "Bi-Weekly Day Worked",
+          "Fixed Rule Id": 2
+        }
+      },
+      "Pay Rule Today's Data": {
+        "Revision": "1/01/1753 - 1/01/3000",
+        "Default Work Rule": "Manufacturing",
+        "Default Work Rule Id": 62,
+        "Fixed Rule": "Bi-Weekly Day Worked",
+        "Fixed Rule Id": 2,
+        "Default Holiday Credit Rule": "",
+        "Holidays": [
+          "Presidents Day",
+          "Christmas",
+          "New Year's Day",
+          "Labor Day",
+          "Juneteenth",
+          "Independence Day",
+          "Day after Thanksgiving",
+          "Thanksgiving",
+          "Memorial Day"
+        ],
+        "Rule Id": "65"
+      },
+      "Punch items": [
+        {
+          "break": false,
+          "Punch": "Punch(1/08/2025 9:00 GMT-05:00)",
+          "Punch Id": "5851",
+          "Punch Type": "IN",
+          "is Break": false
+        },
+        {
+          "break": false,
+          "Punch": "Punch(1/08/2025 21:00 GMT-05:00)",
+          "Punch Id": "5852",
+          "Punch Type": "OUT",
+          "is Break": false
+        },
+        {
+          "break": false,
+          "Punch": "Punch(1/09/2025 11:00 GMT-05:00)",
+          "Punch Id": "5853",
+          "Punch Type": "IN",
+          "is Break": false
+        },
+        {
+          "break": false,
+          "Punch": "Punch(1/09/2025 16:00 GMT-05:00)",
+          "Punch Id": "5854",
+          "Punch Type": "OUT",
+          "is Break": false
+        },
+        {
+          "break": false,
+          "Punch": "Punch(1/09/2025 16:01 GMT-05:00)",
+          "Punch Id": "6113",
+          "Punch Type": "IN",
+          "is Break": false
+        },
+        {
+          "break": false,
+          "Punch": "Punch(1/09/2025 22:00 GMT-05:00)",
+          "Punch Id": "6114",
+          "Punch Type": "OUT",
+          "is Break": false
+        },
+        {
+          "break": false,
+          "Punch": "Punch(1/10/2025 9:00 GMT-05:00)",
+          "Punch Id": "6105",
+          "Punch Type": "IN",
+          "is Break": false
+        },
+        {
+          "break": false,
+          "Punch": "Punch(1/10/2025 21:00 GMT-05:00)",
+          "Punch Id": "6106",
+          "Punch Type": "OUT",
+          "is Break": false
+        }
+      ],
+      "Input items": [
+        {
+          "Item Type": "PayCodeEdit",
+          "Pay Code Name": "Regular Hours",
+          "Apply to Date": "1/08/2025",
+          "Amount": "8:00",
+          "Labor Account": ""
+        }
+      ],
+      "Schedule Shifts": [
+        {
+          "Schedule Shift Id": "12152",
+          "Apply Date": "1/07/2025",
+          "Start Date Time": "1/07/2025 9:00 GMT-05:00",
+          "End Date Time": "1/07/2025 17:00 GMT-05:00",
+          "Work Rule": {
+            "Name": "Manufacturing"
+          },
+          "No of Segments": 1
+        },
+        {
+          "Schedule Shift Id": "13152",
+          "Apply Date": "1/08/2025",
+          "Start Date Time": "1/08/2025 13:00 GMT-05:00",
+          "End Date Time": "1/08/2025 17:00 GMT-05:00",
+          "Work Rule": {
+            "Name": "Manufacturing"
+          },
+          "No of Segments": 1
+        },
+        {
+          "Schedule Shift Id": "13151",
+          "Apply Date": "1/09/2025",
+          "Start Date Time": "1/09/2025 9:00 GMT-05:00",
+          "End Date Time": "1/09/2025 17:00 GMT-05:00",
+          "Work Rule": {
+            "Name": "Manufacturing"
+          },
+          "No of Segments": 2
+        }
+      ]
+    },
+    "workLedgerLWStateList": [
+      {
+        "Execution Step": "formSpans",
+        "Shifts": [
+          {
+            "Shift Id": "",
+            "Start Date Time": "1/08/2025 9:00 GMT-05:00",
+            "End Date Time": "1/08/2025 21:00 GMT-05:00",
+            "Number of Segments": 1,
+            "Position Id": "-1405",
+            "Work Rule": {
+              "Name": "Manufacturing"
+            },
+            "Schedule Shifts": {
+              "Schedule Shift Id": "13152",
+              "Apply Date": "1/08/2025",
+              "Start Date Time": "1/08/2025 13:00 GMT-05:00",
+              "End Date Time": "1/08/2025 17:00 GMT-05:00",
+              "Work Rule": {
+                "Name": "Manufacturing"
+              },
+              "No of Segments": 1,
+              "Schedule Segments": [
+                {
+                  "Start Date Time": "1/08/2025 13:00 GMT-05:00",
+                  "End Date Time": "1/08/2025 17:00 GMT-05:00",
+                  "Projected": false,
+                  "Work Rule from Schedule": false
+                }
+              ]
+            },
+            "Work Spans": [
+              {
+                "Type of Span": "WorkSpan",
+                "Apply Date Time": {
+                  "Apply Date": "1/08/2025",
+                  "Start Time": "9:00",
+                  "End Time": "16:00"
+                },
+                "Work Rule": {
+                  "Name": "Manufacturing"
+                },
+                "Transfer Set": {
+                  "Primary Job": false
+                },
+                "Reason": {
+                  "Start Reason": "newShift",
+                  "End Reason": "zone"
+                },
+                "Annotations": {
+                  "Start Annotation": "ProcessedSegmentAnnotation EarlyViolation ScheduleLaborAccount(null) ScheduleLaborAccount(null) Punch(1/08/2025 9:00 GMT-05:00)",
+                  "End Annotation": "",
+                  "Span Annotation": "ORIGINAL_ZONES  LimitHolder ORIGINAL_ZONES Simple Tenths Scheduled Time Transfer(Home)"
+                },
+                "Paid": true
+              },
+              {
+                "Type of Span": "WorkSpan",
+                "Apply Date Time": {
+                  "Apply Date": "1/08/2025",
+                  "Start Time": "16:00",
+                  "End Time": "17:30"
+                },
+                "Work Rule": {
+                  "Name": "Manufacturing"
+                },
+                "Transfer Set": {
+                  "Primary Job": false
+                },
+                "Reason": {
+                  "Start Reason": "zone",
+                  "End Reason": "otLimitProcessing"
+                },
+                "Annotations": {
+                  "Start Annotation": "",
+                  "End Annotation": "",
+                  "Span Annotation": "ORIGINAL_ZONES  LimitHolder ORIGINAL_ZONES Simple Tenths Scheduled Time Transfer(Home)"
+                },
+                "Kinds of Time": {
+                  "Zone Rule": [
+                    {
+                      "Type of Zone Rule": "ShiftDifferentialZoneRule",
+                      "Id": 5,
+                      "Name": "Evening Work 4p-10p",
+                      "Approval Required": false,
+                      "Start Time": "16:00",
+                      "End Time": "22:00"
+                    }
+                  ]
+                },
+                "Paid": true
+              },
+              {
+                "Type of Span": "WorkSpan",
+                "Apply Date Time": {
+                  "Apply Date": "1/08/2025",
+                  "Start Time": "17:30",
+                  "End Time": "21:00"
+                },
+                "Work Rule": {
+                  "Name": "Manufacturing"
+                },
+                "Transfer Set": {
+                  "Primary Job": false
+                },
+                "Reason": {
+                  "Start Reason": "otLimitProcessing",
+                  "End Reason": "out"
+                },
+                "Annotations": {
+                  "Start Annotation": "",
+                  "End Annotation": "LateOutViolation ShortTotalBreakExceptionViolation Punch(1/08/2025 21:00 GMT-05:00)",
+                  "Span Annotation": "ORIGINAL_ZONES  UnapprovedTime LimitHolder ORIGINAL_ZONES Simple Tenths Scheduled Time Transfer(Home)"
+                },
+                "Kinds of Time": {
+                  "Zone Rule": []
+                },
+                "Paid": true
+              }
+            ],
+            "is Scheduled": true
+          },
+          {
+            "Shift Id": "",
+            "Start Date Time": "1/09/2025 11:00 GMT-05:00",
+            "End Date Time": "1/09/2025 22:00 GMT-05:00",
+            "Number of Segments": 4,
+            "Position Id": "-1405",
+            "Work Rule": {
+              "Name": "Manufacturing"
+            },
+            "Schedule Shifts": {
+              "Schedule Shift Id": "13151",
+              "Apply Date": "1/09/2025",
+              "Start Date Time": "1/09/2025 9:00 GMT-05:00",
+              "End Date Time": "1/09/2025 17:00 GMT-05:00",
+              "Work Rule": {
+                "Name": "Manufacturing"
+              },
+              "No of Segments": 2,
+              "Schedule Segments": [
+                {
+                  "Start Date Time": "1/09/2025 9:00 GMT-05:00",
+                  "End Date Time": "1/09/2025 13:00 GMT-05:00",
+                  "Projected": false,
+                  "Work Rule from Schedule": false
+                },
+                {
+                  "Start Date Time": "1/09/2025 13:00 GMT-05:00",
+                  "End Date Time": "1/09/2025 17:00 GMT-05:00",
+                  "Projected": false,
+                  "Work Rule from Schedule": false
+                }
+              ]
+            },
+            "Work Spans": [
+              {
+                "Type of Span": "WorkSpan",
+                "Apply Date Time": {
+                  "Apply Date": "1/09/2025",
+                  "Start Time": "11:00",
+                  "End Time": "13:00"
+                },
+                "Work Rule": {
+                  "Name": "Manufacturing"
+                },
+                "Transfer Set": {
+                  "Primary Job": false
+                },
+                "Reason": {
+                  "Start Reason": "newShift",
+                  "End Reason": "schedTransfer"
+                },
+                "Annotations": {
+                  "Start Annotation": "ProcessedSegmentAnnotation LateViolation ScheduleLaborAccount(null) ScheduleLaborAccount(null) Punch(1/09/2025 11:00 GMT-05:00)",
+                  "End Annotation": "",
+                  "Span Annotation": "ORIGINAL_ZONES  LimitHolder ORIGINAL_ZONES Simple Tenths Scheduled Time Transfer(Home)"
+                },
+                "Paid": true
+              },
+              {
+                "Type of Span": "WorkSpan",
+                "Apply Date Time": {
+                  "Apply Date": "1/09/2025",
+                  "Start Time": "13:00",
+                  "End Time": "16:00"
+                },
+                "Work Rule": {
+                  "Name": "Manufacturing"
+                },
+                "Transfer Set": {
+                  "Cost Center": "CC_Production",
+                  "Primary Job": false
+                },
+                "Reason": {
+                  "Start Reason": "schedTransfer",
+                  "End Reason": "out"
+                },
+                "Annotations": {
+                  "Start Annotation": "ProcessedSegmentAnnotation ScheduleLaborAccount(151)",
+                  "End Annotation": "Break(30 Minute 15-7 Long No Except) Punch(1/09/2025 16:00 GMT-05:00)",
+                  "Span Annotation": "ORIGINAL_ZONES  LimitHolder ORIGINAL_ZONES Simple Tenths Scheduled Time Transfer([laborAccountId: 151 jobId: 53 employeeId: null isPrimary: false])"
+                },
+                "Paid": true
+              },
+              {
+                "Type of Span": "WorkSpan",
+                "Apply Date Time": {
+                  "Apply Date": "1/09/2025",
+                  "Start Time": "16:00",
+                  "End Time": "16:30"
+                },
+                "Work Rule": {
+                  "Name": "Manufacturing"
+                },
+                "Transfer Set": {
+                  "Cost Center": "CC_Production",
+                  "Primary Job": false
+                },
+                "Reason": {
+                  "Start Reason": "",
+                  "End Reason": ""
+                },
+                "Annotations": {
+                  "Start Annotation": "ProcessedSegmentAnnotation Break(30 Minute 15-7 Long No Except)",
+                  "End Annotation": "Break(30 Minute 15-7 Long No Except) Punch(1/09/2025 16:01 GMT-05:00)",
+                  "Span Annotation": "ORIGINAL_ZONES  LimitHolder ORIGINAL_ZONES Simple Tenths Scheduled Time OutInterval Break(30 Minute 15-7 Long No Except) Transfer([laborAccountId: 151 jobId: 53 employeeId: null isPrimary: false]) OutInterval"
+                },
+                "Kinds of Time": {
+                  "Zone Rule": [
+                    {
+                      "Type of Zone Rule": "ShiftDifferentialZoneRule",
+                      "Id": 5,
+                      "Name": "Evening Work 4p-10p",
+                      "Approval Required": false,
+                      "Start Time": "16:00",
+                      "End Time": "22:00"
+                    }
+                  ]
+                },
+                "Paid": true
+              },
+              {
+                "Type of Span": "WorkSpan",
+                "Apply Date Time": {
+                  "Apply Date": "1/09/2025",
+                  "Start Time": "16:30",
+                  "End Time": "19:30"
+                },
+                "Work Rule": {
+                  "Name": "Manufacturing"
+                },
+                "Transfer Set": {
+                  "Cost Center": "CC_Production",
+                  "Primary Job": false
+                },
+                "Reason": {
+                  "Start Reason": "break:30 Minute 15-7 Long No Except",
+                  "End Reason": "otLimitProcessing"
+                },
+                "Annotations": {
+                  "Start Annotation": "ProcessedSegmentAnnotation Break(30 Minute 15-7 Long No Except) Punch(1/09/2025 16:01 GMT-05:00)",
+                  "End Annotation": "",
+                  "Span Annotation": "ORIGINAL_ZONES  LimitHolder ORIGINAL_ZONES Simple Tenths Scheduled Time Transfer([laborAccountId: 151 jobId: 53 employeeId: null isPrimary: false])"
+                },
+                "Kinds of Time": {
+                  "Zone Rule": [
+                    {
+                      "Type of Zone Rule": "ShiftDifferentialZoneRule",
+                      "Id": 5,
+                      "Name": "Evening Work 4p-10p",
+                      "Approval Required": false,
+                      "Start Time": "16:00",
+                      "End Time": "22:00"
+                    }
+                  ]
+                },
+                "Paid": true
+              },
+              {
+                "Type of Span": "WorkSpan",
+                "Apply Date Time": {
+                  "Apply Date": "1/09/2025",
+                  "Start Time": "19:30",
+                  "End Time": "22:00"
+                },
+                "Work Rule": {
+                  "Name": "Manufacturing"
+                },
+                "Transfer Set": {
+                  "Cost Center": "CC_Production",
+                  "Primary Job": false
+                },
+                "Reason": {
+                  "Start Reason": "otLimitProcessing",
+                  "End Reason": "out"
+                },
+                "Annotations": {
+                  "Start Annotation": "",
+                  "End Annotation": "LateOutViolation ShortTotalBreakExceptionViolation Punch(1/09/2025 22:00 GMT-05:00)",
+                  "Span Annotation": "ORIGINAL_ZONES  UnapprovedTime LimitHolder ORIGINAL_ZONES Simple Tenths Scheduled Time Transfer([laborAccountId: 151 jobId: 53 employeeId: null isPrimary: false])"
+                },
+                "Kinds of Time": {
+                  "Zone Rule": []
+                },
+                "Paid": true
+              }
+            ],
+            "is Scheduled": true
+          }
+        ],
+        "Overtime": {
+          "overtimeRules": [
+            {
+              "overtimeRuleDetails": {
+                "contributing paycode rule": "",
+                "contributing paycode id": "",
+                "isApprovalRequired": "true",
+                "isOverridingPayCodesFromContributingPayCodesRule": "false",
+                "isOverridingPayCodes": "false"
+              },
+              "Overtime Id": "65",
+              "name": "40 Hour Weekly",
+              "ruleDetails": {
+                "contributing paycode rule": "",
+                "contributing paycode id": "",
+                "isApprovalRequired": "true",
+                "isOverridingPayCodesFromContributingPayCodesRule": "false",
+                "isOverridingPayCodes": "false"
+              }
+            },
+            {
+              "overtimeRuleDetails": {
+                "contributing paycode rule": "",
+                "contributing paycode id": "",
+                "isApprovalRequired": "true",
+                "isOverridingPayCodesFromContributingPayCodesRule": "false",
+                "isOverridingPayCodes": "false"
+              },
+              "Overtime Id": "67",
+              "name": "8.5 Hour Overtime",
+              "ruleDetails": {
+                "contributing paycode rule": "",
+                "contributing paycode id": "",
+                "isApprovalRequired": "true",
+                "isOverridingPayCodesFromContributingPayCodesRule": "false",
+                "isOverridingPayCodes": "false"
+              }
+            }
+          ],
+          "overtimeDenials": [],
+          "overtimeApprovals": [],
+          "unapprovedOvertimes": [
+            {
+              "approvedOvertimeStartDT": "1/08/2025 17:30 GMT-05:00",
+              "approvedOvertimeEndDT": "1/08/2025 21:00 GMT-05:00",
+              "amount": "3.5",
+              "wage": "0.00",
+              "unapprovedOvertimePaycodeName": "Unapproved Overtime Hours",
+              "unapprovedOvertimePaycodeId": "170"
+            },
+            {
+              "approvedOvertimeStartDT": "1/09/2025 19:30 GMT-05:00",
+              "approvedOvertimeEndDT": "1/09/2025 22:00 GMT-05:00",
+              "amount": "2.5",
+              "wage": "0.00",
+              "unapprovedOvertimePaycodeName": "Unapproved Overtime Hours",
+              "unapprovedOvertimePaycodeId": "170"
+            }
+          ]
+        },
+        "Absences": [],
+        "CarryForward": {
+          "Locked Half Shifts": [],
+          "Carry Forward Spans": [],
+          "Callback Spans": [],
+          "Pay Code Edits": [],
+          "Bonus Info": []
+        }
+      },
+      {
+        "Execution Step": "adjustShifts",
+        "Shifts": [
+          {
+            "Shift Id": "",
+            "Start Date Time": "1/08/2025 9:00 GMT-05:00",
+            "End Date Time": "1/08/2025 21:00 GMT-05:00",
+            "Number of Segments": 1,
+            "Position Id": "-1405",
+            "Work Rule": {
+              "Name": "Manufacturing"
+            },
+            "Schedule Shifts": {
+              "Schedule Shift Id": "13152",
+              "Apply Date": "1/08/2025",
+              "Start Date Time": "1/08/2025 13:00 GMT-05:00",
+              "End Date Time": "1/08/2025 17:00 GMT-05:00",
+              "Work Rule": {
+                "Name": "Manufacturing"
+              },
+              "No of Segments": 1,
+              "Schedule Segments": [
+                {
+                  "Start Date Time": "1/08/2025 13:00 GMT-05:00",
+                  "End Date Time": "1/08/2025 17:00 GMT-05:00",
+                  "Projected": false,
+                  "Work Rule from Schedule": false
+                }
+              ]
+            },
+            "Work Spans": [
+              {
+                "Type of Span": "WorkSpan",
+                "Apply Date Time": {
+                  "Apply Date": "1/08/2025",
+                  "Start Time": "9:00",
+                  "End Time": "16:00"
+                },
+                "Work Rule": {
+                  "Name": "Manufacturing"
+                },
+                "Transfer Set": {
+                  "Primary Job": false
+                },
+                "Reason": {
+                  "Start Reason": "newShift",
+                  "End Reason": "zone"
+                },
+                "Annotations": {
+                  "Start Annotation": "ProcessedSegmentAnnotation EarlyViolation ScheduleLaborAccount(null) ScheduleLaborAccount(null) Punch(1/08/2025 9:00 GMT-05:00)",
+                  "End Annotation": "",
+                  "Span Annotation": "ORIGINAL_ZONES  LimitHolder ORIGINAL_ZONES Simple Tenths Scheduled Time Transfer(Home)"
+                },
+                "Paid": true
+              },
+              {
+                "Type of Span": "WorkSpan",
+                "Apply Date Time": {
+                  "Apply Date": "1/08/2025",
+                  "Start Time": "16:00",
+                  "End Time": "17:30"
+                },
+                "Work Rule": {
+                  "Name": "Manufacturing"
+                },
+                "Transfer Set": {
+                  "Primary Job": false
+                },
+                "Reason": {
+                  "Start Reason": "zone",
+                  "End Reason": "otLimitProcessing"
+                },
+                "Annotations": {
+                  "Start Annotation": "",
+                  "End Annotation": "",
+                  "Span Annotation": "ORIGINAL_ZONES  LimitHolder ORIGINAL_ZONES Simple Tenths Scheduled Time Transfer(Home)"
+                },
+                "Kinds of Time": {
+                  "Zone Rule": [
+                    {
+                      "Type of Zone Rule": "ShiftDifferentialZoneRule",
+                      "Id": 5,
+                      "Name": "Evening Work 4p-10p",
+                      "Approval Required": false,
+                      "Start Time": "16:00",
+                      "End Time": "22:00"
+                    }
+                  ]
+                },
+                "Paid": true
+              },
+              {
+                "Type of Span": "WorkSpan",
+                "Apply Date Time": {
+                  "Apply Date": "1/08/2025",
+                  "Start Time": "17:30",
+                  "End Time": "21:00"
+                },
+                "Work Rule": {
+                  "Name": "Manufacturing"
+                },
+                "Transfer Set": {
+                  "Primary Job": false
+                },
+                "Reason": {
+                  "Start Reason": "otLimitProcessing",
+                  "End Reason": "out"
+                },
+                "Annotations": {
+                  "Start Annotation": "",
+                  "End Annotation": "LateOutViolation ShortTotalBreakExceptionViolation Punch(1/08/2025 21:00 GMT-05:00)",
+                  "Span Annotation": "ORIGINAL_ZONES  UnapprovedTime LimitHolder ORIGINAL_ZONES Simple Tenths Scheduled Time Transfer(Home)"
+                },
+                "Kinds of Time": {
+                  "Zone Rule": []
+                },
+                "Paid": true
+              }
+            ],
+            "is Scheduled": true
+          },
+          {
+            "Shift Id": "",
+            "Start Date Time": "1/09/2025 11:00 GMT-05:00",
+            "End Date Time": "1/09/2025 22:00 GMT-05:00",
+            "Number of Segments": 4,
+            "Position Id": "-1405",
+            "Work Rule": {
+              "Name": "Manufacturing"
+            },
+            "Schedule Shifts": {
+              "Schedule Shift Id": "13151",
+              "Apply Date": "1/09/2025",
+              "Start Date Time": "1/09/2025 9:00 GMT-05:00",
+              "End Date Time": "1/09/2025 17:00 GMT-05:00",
+              "Work Rule": {
+                "Name": "Manufacturing"
+              },
+              "No of Segments": 2,
+              "Schedule Segments": [
+                {
+                  "Start Date Time": "1/09/2025 9:00 GMT-05:00",
+                  "End Date Time": "1/09/2025 13:00 GMT-05:00",
+                  "Projected": false,
+                  "Work Rule from Schedule": false
+                },
+                {
+                  "Start Date Time": "1/09/2025 13:00 GMT-05:00",
+                  "End Date Time": "1/09/2025 17:00 GMT-05:00",
+                  "Projected": false,
+                  "Work Rule from Schedule": false
+                }
+              ]
+            },
+            "Work Spans": [
+              {
+                "Type of Span": "WorkSpan",
+                "Apply Date Time": {
+                  "Apply Date": "1/09/2025",
+                  "Start Time": "11:00",
+                  "End Time": "13:00"
+                },
+                "Work Rule": {
+                  "Name": "Manufacturing"
+                },
+                "Transfer Set": {
+                  "Primary Job": false
+                },
+                "Reason": {
+                  "Start Reason": "newShift",
+                  "End Reason": "schedTransfer"
+                },
+                "Annotations": {
+                  "Start Annotation": "ProcessedSegmentAnnotation LateViolation ScheduleLaborAccount(null) ScheduleLaborAccount(null) Punch(1/09/2025 11:00 GMT-05:00)",
+                  "End Annotation": "",
+                  "Span Annotation": "ORIGINAL_ZONES  LimitHolder ORIGINAL_ZONES Simple Tenths Scheduled Time Transfer(Home)"
+                },
+                "Paid": true
+              },
+              {
+                "Type of Span": "WorkSpan",
+                "Apply Date Time": {
+                  "Apply Date": "1/09/2025",
+                  "Start Time": "13:00",
+                  "End Time": "16:00"
+                },
+                "Work Rule": {
+                  "Name": "Manufacturing"
+                },
+                "Transfer Set": {
+                  "Cost Center": "CC_Production",
+                  "Primary Job": false
+                },
+                "Reason": {
+                  "Start Reason": "schedTransfer",
+                  "End Reason": "out"
+                },
+                "Annotations": {
+                  "Start Annotation": "ProcessedSegmentAnnotation ScheduleLaborAccount(151)",
+                  "End Annotation": "Break(30 Minute 15-7 Long No Except) Punch(1/09/2025 16:00 GMT-05:00)",
+                  "Span Annotation": "ORIGINAL_ZONES  LimitHolder ORIGINAL_ZONES Simple Tenths Scheduled Time Transfer([laborAccountId: 151 jobId: 53 employeeId: null isPrimary: false])"
+                },
+                "Paid": true
+              },
+              {
+                "Type of Span": "WorkSpan",
+                "Apply Date Time": {
+                  "Apply Date": "1/09/2025",
+                  "Start Time": "16:00",
+                  "End Time": "16:30"
+                },
+                "Work Rule": {
+                  "Name": "Manufacturing"
+                },
+                "Transfer Set": {
+                  "Cost Center": "CC_Production",
+                  "Primary Job": false
+                },
+                "Reason": {
+                  "Start Reason": "",
+                  "End Reason": ""
+                },
+                "Annotations": {
+                  "Start Annotation": "ProcessedSegmentAnnotation Break(30 Minute 15-7 Long No Except)",
+                  "End Annotation": "Break(30 Minute 15-7 Long No Except) Punch(1/09/2025 16:01 GMT-05:00)",
+                  "Span Annotation": "ORIGINAL_ZONES  LimitHolder ORIGINAL_ZONES Simple Tenths Scheduled Time OutInterval Break(30 Minute 15-7 Long No Except) Transfer([laborAccountId: 151 jobId: 53 employeeId: null isPrimary: false]) OutInterval"
+                },
+                "Kinds of Time": {
+                  "Zone Rule": [
+                    {
+                      "Type of Zone Rule": "ShiftDifferentialZoneRule",
+                      "Id": 5,
+                      "Name": "Evening Work 4p-10p",
+                      "Approval Required": false,
+                      "Start Time": "16:00",
+                      "End Time": "22:00"
+                    }
+                  ]
+                },
+                "Paid": true
+              },
+              {
+                "Type of Span": "WorkSpan",
+                "Apply Date Time": {
+                  "Apply Date": "1/09/2025",
+                  "Start Time": "16:30",
+                  "End Time": "19:30"
+                },
+                "Work Rule": {
+                  "Name": "Manufacturing"
+                },
+                "Transfer Set": {
+                  "Cost Center": "CC_Production",
+                  "Primary Job": false
+                },
+                "Reason": {
+                  "Start Reason": "break:30 Minute 15-7 Long No Except",
+                  "End Reason": "otLimitProcessing"
+                },
+                "Annotations": {
+                  "Start Annotation": "ProcessedSegmentAnnotation Break(30 Minute 15-7 Long No Except) Punch(1/09/2025 16:01 GMT-05:00)",
+                  "End Annotation": "",
+                  "Span Annotation": "ORIGINAL_ZONES  LimitHolder ORIGINAL_ZONES Simple Tenths Scheduled Time Transfer([laborAccountId: 151 jobId: 53 employeeId: null isPrimary: false])"
+                },
+                "Kinds of Time": {
+                  "Zone Rule": [
+                    {
+                      "Type of Zone Rule": "ShiftDifferentialZoneRule",
+                      "Id": 5,
+                      "Name": "Evening Work 4p-10p",
+                      "Approval Required": false,
+                      "Start Time": "16:00",
+                      "End Time": "22:00"
+                    }
+                  ]
+                },
+                "Paid": true
+              },
+              {
+                "Type of Span": "WorkSpan",
+                "Apply Date Time": {
+                  "Apply Date": "1/09/2025",
+                  "Start Time": "19:30",
+                  "End Time": "22:00"
+                },
+                "Work Rule": {
+                  "Name": "Manufacturing"
+                },
+                "Transfer Set": {
+                  "Cost Center": "CC_Production",
+                  "Primary Job": false
+                },
+                "Reason": {
+                  "Start Reason": "otLimitProcessing",
+                  "End Reason": "out"
+                },
+                "Annotations": {
+                  "Start Annotation": "",
+                  "End Annotation": "LateOutViolation ShortTotalBreakExceptionViolation Punch(1/09/2025 22:00 GMT-05:00)",
+                  "Span Annotation": "ORIGINAL_ZONES  UnapprovedTime LimitHolder ORIGINAL_ZONES Simple Tenths Scheduled Time Transfer([laborAccountId: 151 jobId: 53 employeeId: null isPrimary: false])"
+                },
+                "Kinds of Time": {
+                  "Zone Rule": []
+                },
+                "Paid": true
+              }
+            ],
+            "is Scheduled": true
+          }
+        ],
+        "Overtime": {
+          "overtimeRules": [
+            {
+              "overtimeRuleDetails": {
+                "contributing paycode rule": "",
+                "contributing paycode id": "",
+                "isApprovalRequired": "true",
+                "isOverridingPayCodesFromContributingPayCodesRule": "false",
+                "isOverridingPayCodes": "false"
+              },
+              "Overtime Id": "65",
+              "name": "40 Hour Weekly",
+              "ruleDetails": {
+                "contributing paycode rule": "",
+                "contributing paycode id": "",
+                "isApprovalRequired": "true",
+                "isOverridingPayCodesFromContributingPayCodesRule": "false",
+                "isOverridingPayCodes": "false"
+              }
+            },
+            {
+              "overtimeRuleDetails": {
+                "contributing paycode rule": "",
+                "contributing paycode id": "",
+                "isApprovalRequired": "true",
+                "isOverridingPayCodesFromContributingPayCodesRule": "false",
+                "isOverridingPayCodes": "false"
+              },
+              "Overtime Id": "67",
+              "name": "8.5 Hour Overtime",
+              "ruleDetails": {
+                "contributing paycode rule": "",
+                "contributing paycode id": "",
+                "isApprovalRequired": "true",
+                "isOverridingPayCodesFromContributingPayCodesRule": "false",
+                "isOverridingPayCodes": "false"
+              }
+            }
+          ],
+          "overtimeDenials": [],
+          "overtimeApprovals": [],
+          "unapprovedOvertimes": [
+            {
+              "approvedOvertimeStartDT": "1/08/2025 17:30 GMT-05:00",
+              "approvedOvertimeEndDT": "1/08/2025 21:00 GMT-05:00",
+              "amount": "3.5",
+              "wage": "0.00",
+              "unapprovedOvertimePaycodeName": "Unapproved Overtime Hours",
+              "unapprovedOvertimePaycodeId": "170"
+            },
+            {
+              "approvedOvertimeStartDT": "1/09/2025 19:30 GMT-05:00",
+              "approvedOvertimeEndDT": "1/09/2025 22:00 GMT-05:00",
+              "amount": "2.5",
+              "wage": "0.00",
+              "unapprovedOvertimePaycodeName": "Unapproved Overtime Hours",
+              "unapprovedOvertimePaycodeId": "170"
+            }
+          ]
+        },
+        "Absences": [],
+        "CarryForward": {
+          "Locked Half Shifts": [],
+          "Carry Forward Spans": [],
+          "Callback Spans": [],
+          "Pay Code Edits": [],
+          "Bonus Info": []
+        }
+      },
+      {
+        "Execution Step": "processShifts",
+        "Shifts": [
+          {
+            "Shift Id": "",
+            "Start Date Time": "1/08/2025 9:00 GMT-05:00",
+            "End Date Time": "1/08/2025 21:00 GMT-05:00",
+            "Number of Segments": 1,
+            "Position Id": "-1405",
+            "Work Rule": {
+              "Name": "Manufacturing"
+            },
+            "Schedule Shifts": {
+              "Schedule Shift Id": "13152",
+              "Apply Date": "1/08/2025",
+              "Start Date Time": "1/08/2025 13:00 GMT-05:00",
+              "End Date Time": "1/08/2025 17:00 GMT-05:00",
+              "Work Rule": {
+                "Name": "Manufacturing"
+              },
+              "No of Segments": 1,
+              "Schedule Segments": [
+                {
+                  "Start Date Time": "1/08/2025 13:00 GMT-05:00",
+                  "End Date Time": "1/08/2025 17:00 GMT-05:00",
+                  "Projected": false,
+                  "Work Rule from Schedule": false
+                }
+              ]
+            },
+            "Work Spans": [
+              {
+                "Type of Span": "WorkSpan",
+                "Apply Date Time": {
+                  "Apply Date": "1/08/2025",
+                  "Start Time": "9:00",
+                  "End Time": "16:00"
+                },
+                "Work Rule": {
+                  "Name": "Manufacturing"
+                },
+                "Transfer Set": {
+                  "Primary Job": false
+                },
+                "Reason": {
+                  "Start Reason": "newShift",
+                  "End Reason": "zone"
+                },
+                "Annotations": {
+                  "Start Annotation": "ProcessedSegmentAnnotation EarlyViolation ScheduleLaborAccount(null) ScheduleLaborAccount(null) Punch(1/08/2025 9:00 GMT-05:00)",
+                  "End Annotation": "",
+                  "Span Annotation": "ORIGINAL_ZONES  LimitHolder ORIGINAL_ZONES Simple Tenths Scheduled Time Transfer(Home)"
+                },
+                "Paid": true
+              },
+              {
+                "Type of Span": "WorkSpan",
+                "Apply Date Time": {
+                  "Apply Date": "1/08/2025",
+                  "Start Time": "16:00",
+                  "End Time": "17:30"
+                },
+                "Work Rule": {
+                  "Name": "Manufacturing"
+                },
+                "Transfer Set": {
+                  "Primary Job": false
+                },
+                "Reason": {
+                  "Start Reason": "zone",
+                  "End Reason": "otLimitProcessing"
+                },
+                "Annotations": {
+                  "Start Annotation": "",
+                  "End Annotation": "",
+                  "Span Annotation": "ORIGINAL_ZONES  LimitHolder ORIGINAL_ZONES Simple Tenths Scheduled Time Transfer(Home)"
+                },
+                "Kinds of Time": {
+                  "Zone Rule": [
+                    {
+                      "Type of Zone Rule": "ShiftDifferentialZoneRule",
+                      "Id": 5,
+                      "Name": "Evening Work 4p-10p",
+                      "Approval Required": false,
+                      "Start Time": "16:00",
+                      "End Time": "22:00"
+                    }
+                  ]
+                },
+                "Paid": true
+              },
+              {
+                "Type of Span": "WorkSpan",
+                "Apply Date Time": {
+                  "Apply Date": "1/08/2025",
+                  "Start Time": "17:30",
+                  "End Time": "21:00"
+                },
+                "Work Rule": {
+                  "Name": "Manufacturing"
+                },
+                "Transfer Set": {
+                  "Primary Job": false
+                },
+                "Reason": {
+                  "Start Reason": "otLimitProcessing",
+                  "End Reason": "out"
+                },
+                "Annotations": {
+                  "Start Annotation": "",
+                  "End Annotation": "LateOutViolation ShortTotalBreakExceptionViolation Punch(1/08/2025 21:00 GMT-05:00)",
+                  "Span Annotation": "ORIGINAL_ZONES  UnapprovedTime LimitHolder ORIGINAL_ZONES Simple Tenths Scheduled Time Transfer(Home)"
+                },
+                "Kinds of Time": {
+                  "Zone Rule": []
+                },
+                "Paid": true
+              }
+            ],
+            "is Scheduled": true
+          },
+          {
+            "Shift Id": "",
+            "Start Date Time": "1/09/2025 11:00 GMT-05:00",
+            "End Date Time": "1/09/2025 22:00 GMT-05:00",
+            "Number of Segments": 4,
+            "Position Id": "-1405",
+            "Work Rule": {
+              "Name": "Manufacturing"
+            },
+            "Schedule Shifts": {
+              "Schedule Shift Id": "13151",
+              "Apply Date": "1/09/2025",
+              "Start Date Time": "1/09/2025 9:00 GMT-05:00",
+              "End Date Time": "1/09/2025 17:00 GMT-05:00",
+              "Work Rule": {
+                "Name": "Manufacturing"
+              },
+              "No of Segments": 2,
+              "Schedule Segments": [
+                {
+                  "Start Date Time": "1/09/2025 9:00 GMT-05:00",
+                  "End Date Time": "1/09/2025 13:00 GMT-05:00",
+                  "Projected": false,
+                  "Work Rule from Schedule": false
+                },
+                {
+                  "Start Date Time": "1/09/2025 13:00 GMT-05:00",
+                  "End Date Time": "1/09/2025 17:00 GMT-05:00",
+                  "Projected": false,
+                  "Work Rule from Schedule": false
+                }
+              ]
+            },
+            "Work Spans": [
+              {
+                "Type of Span": "WorkSpan",
+                "Apply Date Time": {
+                  "Apply Date": "1/09/2025",
+                  "Start Time": "11:00",
+                  "End Time": "13:00"
+                },
+                "Work Rule": {
+                  "Name": "Manufacturing"
+                },
+                "Transfer Set": {
+                  "Primary Job": false
+                },
+                "Reason": {
+                  "Start Reason": "newShift",
+                  "End Reason": "schedTransfer"
+                },
+                "Annotations": {
+                  "Start Annotation": "ProcessedSegmentAnnotation LateViolation ScheduleLaborAccount(null) ScheduleLaborAccount(null) Punch(1/09/2025 11:00 GMT-05:00)",
+                  "End Annotation": "",
+                  "Span Annotation": "ORIGINAL_ZONES  LimitHolder ORIGINAL_ZONES Simple Tenths Scheduled Time Transfer(Home)"
+                },
+                "Paid": true
+              },
+              {
+                "Type of Span": "WorkSpan",
+                "Apply Date Time": {
+                  "Apply Date": "1/09/2025",
+                  "Start Time": "13:00",
+                  "End Time": "16:00"
+                },
+                "Work Rule": {
+                  "Name": "Manufacturing"
+                },
+                "Transfer Set": {
+                  "Cost Center": "CC_Production",
+                  "Primary Job": false
+                },
+                "Reason": {
+                  "Start Reason": "schedTransfer",
+                  "End Reason": "out"
+                },
+                "Annotations": {
+                  "Start Annotation": "ProcessedSegmentAnnotation ScheduleLaborAccount(151)",
+                  "End Annotation": "Break(30 Minute 15-7 Long No Except) Punch(1/09/2025 16:00 GMT-05:00)",
+                  "Span Annotation": "ORIGINAL_ZONES  LimitHolder ORIGINAL_ZONES Simple Tenths Scheduled Time Transfer([laborAccountId: 151 jobId: 53 employeeId: null isPrimary: false])"
+                },
+                "Paid": true
+              },
+              {
+                "Type of Span": "WorkSpan",
+                "Apply Date Time": {
+                  "Apply Date": "1/09/2025",
+                  "Start Time": "16:00",
+                  "End Time": "16:30"
+                },
+                "Work Rule": {
+                  "Name": "Manufacturing"
+                },
+                "Transfer Set": {
+                  "Cost Center": "CC_Production",
+                  "Primary Job": false
+                },
+                "Reason": {
+                  "Start Reason": "",
+                  "End Reason": ""
+                },
+                "Annotations": {
+                  "Start Annotation": "ProcessedSegmentAnnotation Break(30 Minute 15-7 Long No Except)",
+                  "End Annotation": "Break(30 Minute 15-7 Long No Except) Punch(1/09/2025 16:01 GMT-05:00)",
+                  "Span Annotation": "ORIGINAL_ZONES  LimitHolder ORIGINAL_ZONES Simple Tenths Scheduled Time OutInterval Break(30 Minute 15-7 Long No Except) Transfer([laborAccountId: 151 jobId: 53 employeeId: null isPrimary: false]) OutInterval"
+                },
+                "Kinds of Time": {
+                  "Zone Rule": [
+                    {
+                      "Type of Zone Rule": "ShiftDifferentialZoneRule",
+                      "Id": 5,
+                      "Name": "Evening Work 4p-10p",
+                      "Approval Required": false,
+                      "Start Time": "16:00",
+                      "End Time": "22:00"
+                    }
+                  ]
+                },
+                "Paid": true
+              },
+              {
+                "Type of Span": "WorkSpan",
+                "Apply Date Time": {
+                  "Apply Date": "1/09/2025",
+                  "Start Time": "16:30",
+                  "End Time": "19:30"
+                },
+                "Work Rule": {
+                  "Name": "Manufacturing"
+                },
+                "Transfer Set": {
+                  "Cost Center": "CC_Production",
+                  "Primary Job": false
+                },
+                "Reason": {
+                  "Start Reason": "break:30 Minute 15-7 Long No Except",
+                  "End Reason": "otLimitProcessing"
+                },
+                "Annotations": {
+                  "Start Annotation": "ProcessedSegmentAnnotation Break(30 Minute 15-7 Long No Except) Punch(1/09/2025 16:01 GMT-05:00)",
+                  "End Annotation": "",
+                  "Span Annotation": "ORIGINAL_ZONES  LimitHolder ORIGINAL_ZONES Simple Tenths Scheduled Time Transfer([laborAccountId: 151 jobId: 53 employeeId: null isPrimary: false])"
+                },
+                "Kinds of Time": {
+                  "Zone Rule": [
+                    {
+                      "Type of Zone Rule": "ShiftDifferentialZoneRule",
+                      "Id": 5,
+                      "Name": "Evening Work 4p-10p",
+                      "Approval Required": false,
+                      "Start Time": "16:00",
+                      "End Time": "22:00"
+                    }
+                  ]
+                },
+                "Paid": true
+              },
+              {
+                "Type of Span": "WorkSpan",
+                "Apply Date Time": {
+                  "Apply Date": "1/09/2025",
+                  "Start Time": "19:30",
+                  "End Time": "22:00"
+                },
+                "Work Rule": {
+                  "Name": "Manufacturing"
+                },
+                "Transfer Set": {
+                  "Cost Center": "CC_Production",
+                  "Primary Job": false
+                },
+                "Reason": {
+                  "Start Reason": "otLimitProcessing",
+                  "End Reason": "out"
+                },
+                "Annotations": {
+                  "Start Annotation": "",
+                  "End Annotation": "LateOutViolation ShortTotalBreakExceptionViolation Punch(1/09/2025 22:00 GMT-05:00)",
+                  "Span Annotation": "ORIGINAL_ZONES  UnapprovedTime LimitHolder ORIGINAL_ZONES Simple Tenths Scheduled Time Transfer([laborAccountId: 151 jobId: 53 employeeId: null isPrimary: false])"
+                },
+                "Kinds of Time": {
+                  "Zone Rule": []
+                },
+                "Paid": true
+              }
+            ],
+            "is Scheduled": true
+          }
+        ],
+        "Overtime": {
+          "overtimeRules": [
+            {
+              "overtimeRuleDetails": {
+                "contributing paycode rule": "",
+                "contributing paycode id": "",
+                "isApprovalRequired": "true",
+                "isOverridingPayCodesFromContributingPayCodesRule": "false",
+                "isOverridingPayCodes": "false"
+              },
+              "Overtime Id": "65",
+              "name": "40 Hour Weekly",
+              "ruleDetails": {
+                "contributing paycode rule": "",
+                "contributing paycode id": "",
+                "isApprovalRequired": "true",
+                "isOverridingPayCodesFromContributingPayCodesRule": "false",
+                "isOverridingPayCodes": "false"
+              }
+            },
+            {
+              "overtimeRuleDetails": {
+                "contributing paycode rule": "",
+                "contributing paycode id": "",
+                "isApprovalRequired": "true",
+                "isOverridingPayCodesFromContributingPayCodesRule": "false",
+                "isOverridingPayCodes": "false"
+              },
+              "Overtime Id": "67",
+              "name": "8.5 Hour Overtime",
+              "ruleDetails": {
+                "contributing paycode rule": "",
+                "contributing paycode id": "",
+                "isApprovalRequired": "true",
+                "isOverridingPayCodesFromContributingPayCodesRule": "false",
+                "isOverridingPayCodes": "false"
+              }
+            }
+          ],
+          "overtimeDenials": [],
+          "overtimeApprovals": [],
+          "unapprovedOvertimes": [
+            {
+              "approvedOvertimeStartDT": "1/08/2025 17:30 GMT-05:00",
+              "approvedOvertimeEndDT": "1/08/2025 21:00 GMT-05:00",
+              "amount": "3.5",
+              "wage": "0.00",
+              "unapprovedOvertimePaycodeName": "Unapproved Overtime Hours",
+              "unapprovedOvertimePaycodeId": "170"
+            },
+            {
+              "approvedOvertimeStartDT": "1/09/2025 19:30 GMT-05:00",
+              "approvedOvertimeEndDT": "1/09/2025 22:00 GMT-05:00",
+              "amount": "2.5",
+              "wage": "0.00",
+              "unapprovedOvertimePaycodeName": "Unapproved Overtime Hours",
+              "unapprovedOvertimePaycodeId": "170"
+            }
+          ]
+        },
+        "Absences": [
+          {
+            "Apply Dates": "[1/07/2025]",
+            "Schedule Shift": {
+              "Start Date Time": "1/07/2025 9:00 GMT-05:00",
+              "End Date Time": "1/07/2025 17:00 GMT-05:00",
+              "Work Rule": {
+                "Name": "Manufacturing"
+              },
+              "No of Segments": 1
+            },
+            "Exceptions": "[ExceptionSegment-0 1/07/2025 9:00 - 1/07/2025 17:00]"
+          }
+        ],
+        "CarryForward": {
+          "Locked Half Shifts": [],
+          "Carry Forward Spans": [],
+          "Callback Spans": [],
+          "Pay Code Edits": [],
+          "Bonus Info": []
+        }
+      },
+      {
+        "Execution Step": "makeProcessedShiftsAndSegments",
+        "Shifts": [
+          {
+            "Shift Id": "",
+            "Start Date Time": "1/08/2025 9:00 GMT-05:00",
+            "End Date Time": "1/08/2025 21:00 GMT-05:00",
+            "Number of Segments": 1,
+            "Position Id": "-1405",
+            "Work Rule": {
+              "Name": "Manufacturing"
+            },
+            "Schedule Shifts": {
+              "Schedule Shift Id": "13152",
+              "Apply Date": "1/08/2025",
+              "Start Date Time": "1/08/2025 13:00 GMT-05:00",
+              "End Date Time": "1/08/2025 17:00 GMT-05:00",
+              "Work Rule": {
+                "Name": "Manufacturing"
+              },
+              "No of Segments": 1,
+              "Schedule Segments": [
+                {
+                  "Start Date Time": "1/08/2025 13:00 GMT-05:00",
+                  "End Date Time": "1/08/2025 17:00 GMT-05:00",
+                  "Projected": false,
+                  "Work Rule from Schedule": false
+                }
+              ]
+            },
+            "Work Spans": [
+              {
+                "Type of Span": "WorkSpan",
+                "Apply Date Time": {
+                  "Apply Date": "1/08/2025",
+                  "Start Time": "9:00",
+                  "End Time": "16:00"
+                },
+                "Work Rule": {
+                  "Name": "Manufacturing"
+                },
+                "Transfer Set": {
+                  "Primary Job": false
+                },
+                "Reason": {
+                  "Start Reason": "newShift",
+                  "End Reason": "zone"
+                },
+                "Annotations": {
+                  "Start Annotation": "ProcessedSegmentAnnotation EarlyViolation ScheduleLaborAccount(null) ScheduleLaborAccount(null) Punch(1/08/2025 9:00 GMT-05:00)",
+                  "End Annotation": "",
+                  "Span Annotation": "ORIGINAL_ZONES  LimitHolder ORIGINAL_ZONES Simple Tenths Scheduled Time Transfer(Home)"
+                },
+                "Paid": true
+              },
+              {
+                "Type of Span": "WorkSpan",
+                "Apply Date Time": {
+                  "Apply Date": "1/08/2025",
+                  "Start Time": "16:00",
+                  "End Time": "17:30"
+                },
+                "Work Rule": {
+                  "Name": "Manufacturing"
+                },
+                "Transfer Set": {
+                  "Primary Job": false
+                },
+                "Reason": {
+                  "Start Reason": "zone",
+                  "End Reason": "otLimitProcessing"
+                },
+                "Annotations": {
+                  "Start Annotation": "",
+                  "End Annotation": "",
+                  "Span Annotation": "ORIGINAL_ZONES  LimitHolder ORIGINAL_ZONES Simple Tenths Scheduled Time Transfer(Home)"
+                },
+                "Kinds of Time": {
+                  "Zone Rule": [
+                    {
+                      "Type of Zone Rule": "ShiftDifferentialZoneRule",
+                      "Id": 5,
+                      "Name": "Evening Work 4p-10p",
+                      "Approval Required": false,
+                      "Start Time": "16:00",
+                      "End Time": "22:00"
+                    }
+                  ]
+                },
+                "Paid": true
+              },
+              {
+                "Type of Span": "WorkSpan",
+                "Apply Date Time": {
+                  "Apply Date": "1/08/2025",
+                  "Start Time": "17:30",
+                  "End Time": "21:00"
+                },
+                "Work Rule": {
+                  "Name": "Manufacturing"
+                },
+                "Transfer Set": {
+                  "Primary Job": false
+                },
+                "Reason": {
+                  "Start Reason": "otLimitProcessing",
+                  "End Reason": "out"
+                },
+                "Annotations": {
+                  "Start Annotation": "",
+                  "End Annotation": "LateOutViolation ShortTotalBreakExceptionViolation Punch(1/08/2025 21:00 GMT-05:00)",
+                  "Span Annotation": "ORIGINAL_ZONES  UnapprovedTime LimitHolder ORIGINAL_ZONES Simple Tenths Scheduled Time Transfer(Home)"
+                },
+                "Kinds of Time": {
+                  "Zone Rule": []
+                },
+                "Paid": true
+              }
+            ],
+            "is Scheduled": true
+          },
+          {
+            "Shift Id": "",
+            "Start Date Time": "1/09/2025 11:00 GMT-05:00",
+            "End Date Time": "1/09/2025 22:00 GMT-05:00",
+            "Number of Segments": 4,
+            "Position Id": "-1405",
+            "Work Rule": {
+              "Name": "Manufacturing"
+            },
+            "Schedule Shifts": {
+              "Schedule Shift Id": "13151",
+              "Apply Date": "1/09/2025",
+              "Start Date Time": "1/09/2025 9:00 GMT-05:00",
+              "End Date Time": "1/09/2025 17:00 GMT-05:00",
+              "Work Rule": {
+                "Name": "Manufacturing"
+              },
+              "No of Segments": 2,
+              "Schedule Segments": [
+                {
+                  "Start Date Time": "1/09/2025 9:00 GMT-05:00",
+                  "End Date Time": "1/09/2025 13:00 GMT-05:00",
+                  "Projected": false,
+                  "Work Rule from Schedule": false
+                },
+                {
+                  "Start Date Time": "1/09/2025 13:00 GMT-05:00",
+                  "End Date Time": "1/09/2025 17:00 GMT-05:00",
+                  "Projected": false,
+                  "Work Rule from Schedule": false
+                }
+              ]
+            },
+            "Work Spans": [
+              {
+                "Type of Span": "WorkSpan",
+                "Apply Date Time": {
+                  "Apply Date": "1/09/2025",
+                  "Start Time": "11:00",
+                  "End Time": "13:00"
+                },
+                "Work Rule": {
+                  "Name": "Manufacturing"
+                },
+                "Transfer Set": {
+                  "Primary Job": false
+                },
+                "Reason": {
+                  "Start Reason": "newShift",
+                  "End Reason": "schedTransfer"
+                },
+                "Annotations": {
+                  "Start Annotation": "ProcessedSegmentAnnotation LateViolation ScheduleLaborAccount(null) ScheduleLaborAccount(null) Punch(1/09/2025 11:00 GMT-05:00)",
+                  "End Annotation": "",
+                  "Span Annotation": "ORIGINAL_ZONES  LimitHolder ORIGINAL_ZONES Simple Tenths Scheduled Time Transfer(Home)"
+                },
+                "Paid": true
+              },
+              {
+                "Type of Span": "WorkSpan",
+                "Apply Date Time": {
+                  "Apply Date": "1/09/2025",
+                  "Start Time": "13:00",
+                  "End Time": "16:00"
+                },
+                "Work Rule": {
+                  "Name": "Manufacturing"
+                },
+                "Transfer Set": {
+                  "Cost Center": "CC_Production",
+                  "Primary Job": false
+                },
+                "Reason": {
+                  "Start Reason": "schedTransfer",
+                  "End Reason": "out"
+                },
+                "Annotations": {
+                  "Start Annotation": "ProcessedSegmentAnnotation ScheduleLaborAccount(151)",
+                  "End Annotation": "Break(30 Minute 15-7 Long No Except) Punch(1/09/2025 16:00 GMT-05:00)",
+                  "Span Annotation": "ORIGINAL_ZONES  LimitHolder ORIGINAL_ZONES Simple Tenths Scheduled Time Transfer([laborAccountId: 151 jobId: 53 employeeId: null isPrimary: false])"
+                },
+                "Paid": true
+              },
+              {
+                "Type of Span": "WorkSpan",
+                "Apply Date Time": {
+                  "Apply Date": "1/09/2025",
+                  "Start Time": "16:00",
+                  "End Time": "16:30"
+                },
+                "Work Rule": {
+                  "Name": "Manufacturing"
+                },
+                "Transfer Set": {
+                  "Cost Center": "CC_Production",
+                  "Primary Job": false
+                },
+                "Reason": {
+                  "Start Reason": "",
+                  "End Reason": ""
+                },
+                "Annotations": {
+                  "Start Annotation": "ProcessedSegmentAnnotation Break(30 Minute 15-7 Long No Except)",
+                  "End Annotation": "Break(30 Minute 15-7 Long No Except) Punch(1/09/2025 16:01 GMT-05:00)",
+                  "Span Annotation": "ORIGINAL_ZONES  LimitHolder ORIGINAL_ZONES Simple Tenths Scheduled Time OutInterval Break(30 Minute 15-7 Long No Except) Transfer([laborAccountId: 151 jobId: 53 employeeId: null isPrimary: false]) OutInterval"
+                },
+                "Kinds of Time": {
+                  "Zone Rule": [
+                    {
+                      "Type of Zone Rule": "ShiftDifferentialZoneRule",
+                      "Id": 5,
+                      "Name": "Evening Work 4p-10p",
+                      "Approval Required": false,
+                      "Start Time": "16:00",
+                      "End Time": "22:00"
+                    }
+                  ]
+                },
+                "Paid": true
+              },
+              {
+                "Type of Span": "WorkSpan",
+                "Apply Date Time": {
+                  "Apply Date": "1/09/2025",
+                  "Start Time": "16:30",
+                  "End Time": "19:30"
+                },
+                "Work Rule": {
+                  "Name": "Manufacturing"
+                },
+                "Transfer Set": {
+                  "Cost Center": "CC_Production",
+                  "Primary Job": false
+                },
+                "Reason": {
+                  "Start Reason": "break:30 Minute 15-7 Long No Except",
+                  "End Reason": "otLimitProcessing"
+                },
+                "Annotations": {
+                  "Start Annotation": "ProcessedSegmentAnnotation Break(30 Minute 15-7 Long No Except) Punch(1/09/2025 16:01 GMT-05:00)",
+                  "End Annotation": "",
+                  "Span Annotation": "ORIGINAL_ZONES  LimitHolder ORIGINAL_ZONES Simple Tenths Scheduled Time Transfer([laborAccountId: 151 jobId: 53 employeeId: null isPrimary: false])"
+                },
+                "Kinds of Time": {
+                  "Zone Rule": [
+                    {
+                      "Type of Zone Rule": "ShiftDifferentialZoneRule",
+                      "Id": 5,
+                      "Name": "Evening Work 4p-10p",
+                      "Approval Required": false,
+                      "Start Time": "16:00",
+                      "End Time": "22:00"
+                    }
+                  ]
+                },
+                "Paid": true
+              },
+              {
+                "Type of Span": "WorkSpan",
+                "Apply Date Time": {
+                  "Apply Date": "1/09/2025",
+                  "Start Time": "19:30",
+                  "End Time": "22:00"
+                },
+                "Work Rule": {
+                  "Name": "Manufacturing"
+                },
+                "Transfer Set": {
+                  "Cost Center": "CC_Production",
+                  "Primary Job": false
+                },
+                "Reason": {
+                  "Start Reason": "otLimitProcessing",
+                  "End Reason": "out"
+                },
+                "Annotations": {
+                  "Start Annotation": "",
+                  "End Annotation": "LateOutViolation ShortTotalBreakExceptionViolation Punch(1/09/2025 22:00 GMT-05:00)",
+                  "Span Annotation": "ORIGINAL_ZONES  UnapprovedTime LimitHolder ORIGINAL_ZONES Simple Tenths Scheduled Time Transfer([laborAccountId: 151 jobId: 53 employeeId: null isPrimary: false])"
+                },
+                "Kinds of Time": {
+                  "Zone Rule": []
+                },
+                "Paid": true
+              }
+            ],
+            "is Scheduled": true
+          }
+        ],
+        "Overtime": {
+          "overtimeRules": [
+            {
+              "overtimeRuleDetails": {
+                "contributing paycode rule": "",
+                "contributing paycode id": "",
+                "isApprovalRequired": "true",
+                "isOverridingPayCodesFromContributingPayCodesRule": "false",
+                "isOverridingPayCodes": "false"
+              },
+              "Overtime Id": "65",
+              "name": "40 Hour Weekly",
+              "ruleDetails": {
+                "contributing paycode rule": "",
+                "contributing paycode id": "",
+                "isApprovalRequired": "true",
+                "isOverridingPayCodesFromContributingPayCodesRule": "false",
+                "isOverridingPayCodes": "false"
+              }
+            },
+            {
+              "overtimeRuleDetails": {
+                "contributing paycode rule": "",
+                "contributing paycode id": "",
+                "isApprovalRequired": "true",
+                "isOverridingPayCodesFromContributingPayCodesRule": "false",
+                "isOverridingPayCodes": "false"
+              },
+              "Overtime Id": "67",
+              "name": "8.5 Hour Overtime",
+              "ruleDetails": {
+                "contributing paycode rule": "",
+                "contributing paycode id": "",
+                "isApprovalRequired": "true",
+                "isOverridingPayCodesFromContributingPayCodesRule": "false",
+                "isOverridingPayCodes": "false"
+              }
+            }
+          ],
+          "overtimeDenials": [],
+          "overtimeApprovals": [],
+          "unapprovedOvertimes": [
+            {
+              "approvedOvertimeStartDT": "1/08/2025 17:30 GMT-05:00",
+              "approvedOvertimeEndDT": "1/08/2025 21:00 GMT-05:00",
+              "amount": "3.5",
+              "wage": "0.00",
+              "unapprovedOvertimePaycodeName": "Unapproved Overtime Hours",
+              "unapprovedOvertimePaycodeId": "170"
+            },
+            {
+              "approvedOvertimeStartDT": "1/09/2025 19:30 GMT-05:00",
+              "approvedOvertimeEndDT": "1/09/2025 22:00 GMT-05:00",
+              "amount": "2.5",
+              "wage": "0.00",
+              "unapprovedOvertimePaycodeName": "Unapproved Overtime Hours",
+              "unapprovedOvertimePaycodeId": "170"
+            }
+          ]
+        },
+        "Absences": [
+          {
+            "Apply Dates": "[1/07/2025]",
+            "Schedule Shift": {
+              "Start Date Time": "1/07/2025 9:00 GMT-05:00",
+              "End Date Time": "1/07/2025 17:00 GMT-05:00",
+              "Work Rule": {
+                "Name": "Manufacturing"
+              },
+              "No of Segments": 1
+            },
+            "Exceptions": "[ExceptionSegment-0 1/07/2025 9:00 - 1/07/2025 17:00]"
+          }
+        ],
+        "CarryForward": {
+          "Locked Half Shifts": [],
+          "Carry Forward Spans": [],
+          "Callback Spans": [],
+          "Pay Code Edits": [],
+          "Bonus Info": []
+        }
+      },
+      {
+        "Execution Step": "processPeriod",
+        "Shifts": [
+          {
+            "Shift Id": "",
+            "Start Date Time": "1/08/2025 9:00 GMT-05:00",
+            "End Date Time": "1/08/2025 21:00 GMT-05:00",
+            "Number of Segments": 1,
+            "Position Id": "-1405",
+            "Work Rule": {
+              "Name": "Manufacturing"
+            },
+            "Schedule Shifts": {
+              "Schedule Shift Id": "13152",
+              "Apply Date": "1/08/2025",
+              "Start Date Time": "1/08/2025 13:00 GMT-05:00",
+              "End Date Time": "1/08/2025 17:00 GMT-05:00",
+              "Work Rule": {
+                "Name": "Manufacturing"
+              },
+              "No of Segments": 1,
+              "Schedule Segments": [
+                {
+                  "Start Date Time": "1/08/2025 13:00 GMT-05:00",
+                  "End Date Time": "1/08/2025 17:00 GMT-05:00",
+                  "Projected": false,
+                  "Work Rule from Schedule": false
+                }
+              ]
+            },
+            "Work Spans": [
+              {
+                "Type of Span": "WorkSpan",
+                "Apply Date Time": {
+                  "Apply Date": "1/08/2025",
+                  "Start Time": "9:00",
+                  "End Time": "16:00"
+                },
+                "Work Rule": {
+                  "Name": "Manufacturing"
+                },
+                "Transfer Set": {
+                  "Primary Job": false
+                },
+                "Reason": {
+                  "Start Reason": "newShift",
+                  "End Reason": "zone"
+                },
+                "Annotations": {
+                  "Start Annotation": "ProcessedSegmentAnnotation EarlyViolation ScheduleLaborAccount(null) ScheduleLaborAccount(null) Punch(1/08/2025 9:00 GMT-05:00)",
+                  "End Annotation": "",
+                  "Span Annotation": "ORIGINAL_ZONES  LimitHolder ORIGINAL_ZONES Simple Tenths Scheduled Time Transfer(Home)"
+                },
+                "Paid": true
+              },
+              {
+                "Type of Span": "WorkSpan",
+                "Apply Date Time": {
+                  "Apply Date": "1/08/2025",
+                  "Start Time": "16:00",
+                  "End Time": "17:30"
+                },
+                "Work Rule": {
+                  "Name": "Manufacturing"
+                },
+                "Transfer Set": {
+                  "Primary Job": false
+                },
+                "Reason": {
+                  "Start Reason": "zone",
+                  "End Reason": "otLimitProcessing"
+                },
+                "Annotations": {
+                  "Start Annotation": "",
+                  "End Annotation": "",
+                  "Span Annotation": "ORIGINAL_ZONES  LimitHolder ORIGINAL_ZONES Simple Tenths Scheduled Time Transfer(Home)"
+                },
+                "Kinds of Time": {
+                  "Zone Rule": [
+                    {
+                      "Type of Zone Rule": "ShiftDifferentialZoneRule",
+                      "Id": 5,
+                      "Name": "Evening Work 4p-10p",
+                      "Approval Required": false,
+                      "Start Time": "16:00",
+                      "End Time": "22:00"
+                    }
+                  ]
+                },
+                "Paid": true
+              },
+              {
+                "Type of Span": "WorkSpan",
+                "Apply Date Time": {
+                  "Apply Date": "1/08/2025",
+                  "Start Time": "17:30",
+                  "End Time": "21:00"
+                },
+                "Work Rule": {
+                  "Name": "Manufacturing"
+                },
+                "Transfer Set": {
+                  "Primary Job": false
+                },
+                "Reason": {
+                  "Start Reason": "otLimitProcessing",
+                  "End Reason": "out"
+                },
+                "Annotations": {
+                  "Start Annotation": "",
+                  "End Annotation": "LateOutViolation ShortTotalBreakExceptionViolation Punch(1/08/2025 21:00 GMT-05:00)",
+                  "Span Annotation": "ORIGINAL_ZONES  UnapprovedTime LimitHolder ORIGINAL_ZONES Simple Tenths Scheduled Time Transfer(Home)"
+                },
+                "Kinds of Time": {
+                  "Zone Rule": []
+                },
+                "Paid": true
+              }
+            ],
+            "is Scheduled": true
+          },
+          {
+            "Shift Id": "",
+            "Start Date Time": "1/09/2025 11:00 GMT-05:00",
+            "End Date Time": "1/09/2025 22:00 GMT-05:00",
+            "Number of Segments": 4,
+            "Position Id": "-1405",
+            "Work Rule": {
+              "Name": "Manufacturing"
+            },
+            "Schedule Shifts": {
+              "Schedule Shift Id": "13151",
+              "Apply Date": "1/09/2025",
+              "Start Date Time": "1/09/2025 9:00 GMT-05:00",
+              "End Date Time": "1/09/2025 17:00 GMT-05:00",
+              "Work Rule": {
+                "Name": "Manufacturing"
+              },
+              "No of Segments": 2,
+              "Schedule Segments": [
+                {
+                  "Start Date Time": "1/09/2025 9:00 GMT-05:00",
+                  "End Date Time": "1/09/2025 13:00 GMT-05:00",
+                  "Projected": false,
+                  "Work Rule from Schedule": false
+                },
+                {
+                  "Start Date Time": "1/09/2025 13:00 GMT-05:00",
+                  "End Date Time": "1/09/2025 17:00 GMT-05:00",
+                  "Projected": false,
+                  "Work Rule from Schedule": false
+                }
+              ]
+            },
+            "Work Spans": [
+              {
+                "Type of Span": "WorkSpan",
+                "Apply Date Time": {
+                  "Apply Date": "1/09/2025",
+                  "Start Time": "11:00",
+                  "End Time": "13:00"
+                },
+                "Work Rule": {
+                  "Name": "Manufacturing"
+                },
+                "Transfer Set": {
+                  "Primary Job": false
+                },
+                "Reason": {
+                  "Start Reason": "newShift",
+                  "End Reason": "schedTransfer"
+                },
+                "Annotations": {
+                  "Start Annotation": "ProcessedSegmentAnnotation LateViolation ScheduleLaborAccount(null) ScheduleLaborAccount(null) Punch(1/09/2025 11:00 GMT-05:00)",
+                  "End Annotation": "",
+                  "Span Annotation": "ORIGINAL_ZONES  LimitHolder ORIGINAL_ZONES Simple Tenths Scheduled Time Transfer(Home)"
+                },
+                "Paid": true
+              },
+              {
+                "Type of Span": "WorkSpan",
+                "Apply Date Time": {
+                  "Apply Date": "1/09/2025",
+                  "Start Time": "13:00",
+                  "End Time": "16:00"
+                },
+                "Work Rule": {
+                  "Name": "Manufacturing"
+                },
+                "Transfer Set": {
+                  "Cost Center": "CC_Production",
+                  "Primary Job": false
+                },
+                "Reason": {
+                  "Start Reason": "schedTransfer",
+                  "End Reason": "out"
+                },
+                "Annotations": {
+                  "Start Annotation": "ProcessedSegmentAnnotation ScheduleLaborAccount(151)",
+                  "End Annotation": "Break(30 Minute 15-7 Long No Except) Punch(1/09/2025 16:00 GMT-05:00)",
+                  "Span Annotation": "ORIGINAL_ZONES  LimitHolder ORIGINAL_ZONES Simple Tenths Scheduled Time Transfer([laborAccountId: 151 jobId: 53 employeeId: null isPrimary: false])"
+                },
+                "Paid": true
+              },
+              {
+                "Type of Span": "WorkSpan",
+                "Apply Date Time": {
+                  "Apply Date": "1/09/2025",
+                  "Start Time": "16:00",
+                  "End Time": "16:30"
+                },
+                "Work Rule": {
+                  "Name": "Manufacturing"
+                },
+                "Transfer Set": {
+                  "Cost Center": "CC_Production",
+                  "Primary Job": false
+                },
+                "Reason": {
+                  "Start Reason": "",
+                  "End Reason": ""
+                },
+                "Annotations": {
+                  "Start Annotation": "ProcessedSegmentAnnotation Break(30 Minute 15-7 Long No Except)",
+                  "End Annotation": "Break(30 Minute 15-7 Long No Except) Punch(1/09/2025 16:01 GMT-05:00)",
+                  "Span Annotation": "ORIGINAL_ZONES  LimitHolder ORIGINAL_ZONES Simple Tenths Scheduled Time OutInterval Break(30 Minute 15-7 Long No Except) Transfer([laborAccountId: 151 jobId: 53 employeeId: null isPrimary: false]) OutInterval"
+                },
+                "Kinds of Time": {
+                  "Zone Rule": [
+                    {
+                      "Type of Zone Rule": "ShiftDifferentialZoneRule",
+                      "Id": 5,
+                      "Name": "Evening Work 4p-10p",
+                      "Approval Required": false,
+                      "Start Time": "16:00",
+                      "End Time": "22:00"
+                    }
+                  ]
+                },
+                "Paid": true
+              },
+              {
+                "Type of Span": "WorkSpan",
+                "Apply Date Time": {
+                  "Apply Date": "1/09/2025",
+                  "Start Time": "16:30",
+                  "End Time": "19:30"
+                },
+                "Work Rule": {
+                  "Name": "Manufacturing"
+                },
+                "Transfer Set": {
+                  "Cost Center": "CC_Production",
+                  "Primary Job": false
+                },
+                "Reason": {
+                  "Start Reason": "break:30 Minute 15-7 Long No Except",
+                  "End Reason": "otLimitProcessing"
+                },
+                "Annotations": {
+                  "Start Annotation": "ProcessedSegmentAnnotation Break(30 Minute 15-7 Long No Except) Punch(1/09/2025 16:01 GMT-05:00)",
+                  "End Annotation": "",
+                  "Span Annotation": "ORIGINAL_ZONES  LimitHolder ORIGINAL_ZONES Simple Tenths Scheduled Time Transfer([laborAccountId: 151 jobId: 53 employeeId: null isPrimary: false])"
+                },
+                "Kinds of Time": {
+                  "Zone Rule": [
+                    {
+                      "Type of Zone Rule": "ShiftDifferentialZoneRule",
+                      "Id": 5,
+                      "Name": "Evening Work 4p-10p",
+                      "Approval Required": false,
+                      "Start Time": "16:00",
+                      "End Time": "22:00"
+                    }
+                  ]
+                },
+                "Paid": true
+              },
+              {
+                "Type of Span": "WorkSpan",
+                "Apply Date Time": {
+                  "Apply Date": "1/09/2025",
+                  "Start Time": "19:30",
+                  "End Time": "22:00"
+                },
+                "Work Rule": {
+                  "Name": "Manufacturing"
+                },
+                "Transfer Set": {
+                  "Cost Center": "CC_Production",
+                  "Primary Job": false
+                },
+                "Reason": {
+                  "Start Reason": "otLimitProcessing",
+                  "End Reason": "out"
+                },
+                "Annotations": {
+                  "Start Annotation": "",
+                  "End Annotation": "LateOutViolation ShortTotalBreakExceptionViolation Punch(1/09/2025 22:00 GMT-05:00)",
+                  "Span Annotation": "ORIGINAL_ZONES  UnapprovedTime LimitHolder ORIGINAL_ZONES Simple Tenths Scheduled Time Transfer([laborAccountId: 151 jobId: 53 employeeId: null isPrimary: false])"
+                },
+                "Kinds of Time": {
+                  "Zone Rule": []
+                },
+                "Paid": true
+              }
+            ],
+            "is Scheduled": true
+          }
+        ],
+        "Overtime": {
+          "overtimeRules": [
+            {
+              "overtimeRuleDetails": {
+                "contributing paycode rule": "",
+                "contributing paycode id": "",
+                "isApprovalRequired": "true",
+                "isOverridingPayCodesFromContributingPayCodesRule": "false",
+                "isOverridingPayCodes": "false"
+              },
+              "Overtime Id": "65",
+              "name": "40 Hour Weekly",
+              "ruleDetails": {
+                "contributing paycode rule": "",
+                "contributing paycode id": "",
+                "isApprovalRequired": "true",
+                "isOverridingPayCodesFromContributingPayCodesRule": "false",
+                "isOverridingPayCodes": "false"
+              }
+            },
+            {
+              "overtimeRuleDetails": {
+                "contributing paycode rule": "",
+                "contributing paycode id": "",
+                "isApprovalRequired": "true",
+                "isOverridingPayCodesFromContributingPayCodesRule": "false",
+                "isOverridingPayCodes": "false"
+              },
+              "Overtime Id": "67",
+              "name": "8.5 Hour Overtime",
+              "ruleDetails": {
+                "contributing paycode rule": "",
+                "contributing paycode id": "",
+                "isApprovalRequired": "true",
+                "isOverridingPayCodesFromContributingPayCodesRule": "false",
+                "isOverridingPayCodes": "false"
+              }
+            }
+          ],
+          "overtimeDenials": [],
+          "overtimeApprovals": [],
+          "unapprovedOvertimes": [
+            {
+              "approvedOvertimeStartDT": "1/08/2025 17:30 GMT-05:00",
+              "approvedOvertimeEndDT": "1/08/2025 21:00 GMT-05:00",
+              "amount": "3.5",
+              "wage": "0.00",
+              "unapprovedOvertimePaycodeName": "Unapproved Overtime Hours",
+              "unapprovedOvertimePaycodeId": "170"
+            },
+            {
+              "approvedOvertimeStartDT": "1/09/2025 19:30 GMT-05:00",
+              "approvedOvertimeEndDT": "1/09/2025 22:00 GMT-05:00",
+              "amount": "2.5",
+              "wage": "0.00",
+              "unapprovedOvertimePaycodeName": "Unapproved Overtime Hours",
+              "unapprovedOvertimePaycodeId": "170"
+            }
+          ]
+        },
+        "Absences": [
+          {
+            "Apply Dates": "[1/07/2025]",
+            "Schedule Shift": {
+              "Start Date Time": "1/07/2025 9:00 GMT-05:00",
+              "End Date Time": "1/07/2025 17:00 GMT-05:00",
+              "Work Rule": {
+                "Name": "Manufacturing"
+              },
+              "No of Segments": 1
+            },
+            "Exceptions": "[ExceptionSegment-0 1/07/2025 9:00 - 1/07/2025 17:00]"
+          }
+        ],
+        "CarryForward": {
+          "Locked Half Shifts": [],
+          "Carry Forward Spans": [],
+          "Callback Spans": [],
+          "Pay Code Edits": [],
+          "Bonus Info": []
+        }
+      },
+      {
+        "Execution Step": "processLimits",
+        "Shifts": [
+          {
+            "Shift Id": "",
+            "Start Date Time": "1/08/2025 9:00 GMT-05:00",
+            "End Date Time": "1/08/2025 21:00 GMT-05:00",
+            "Number of Segments": 1,
+            "Position Id": "-1405",
+            "Work Rule": {
+              "Name": "Manufacturing"
+            },
+            "Schedule Shifts": {
+              "Schedule Shift Id": "13152",
+              "Apply Date": "1/08/2025",
+              "Start Date Time": "1/08/2025 13:00 GMT-05:00",
+              "End Date Time": "1/08/2025 17:00 GMT-05:00",
+              "Work Rule": {
+                "Name": "Manufacturing"
+              },
+              "No of Segments": 1,
+              "Schedule Segments": [
+                {
+                  "Start Date Time": "1/08/2025 13:00 GMT-05:00",
+                  "End Date Time": "1/08/2025 17:00 GMT-05:00",
+                  "Projected": false,
+                  "Work Rule from Schedule": false
+                }
+              ]
+            },
+            "Work Spans": [
+              {
+                "Type of Span": "WorkSpan",
+                "Apply Date Time": {
+                  "Apply Date": "1/08/2025",
+                  "Start Time": "9:00",
+                  "End Time": "16:00"
+                },
+                "Work Rule": {
+                  "Name": "Manufacturing"
+                },
+                "Transfer Set": {
+                  "Primary Job": false
+                },
+                "Reason": {
+                  "Start Reason": "newShift",
+                  "End Reason": "zone"
+                },
+                "Annotations": {
+                  "Start Annotation": "ProcessedSegmentAnnotation EarlyViolation ScheduleLaborAccount(null) ScheduleLaborAccount(null) Punch(1/08/2025 9:00 GMT-05:00)",
+                  "End Annotation": "",
+                  "Span Annotation": "ORIGINAL_ZONES  LimitHolder ORIGINAL_ZONES Simple Tenths Scheduled Time Transfer(Home)"
+                },
+                "Paid": true
+              },
+              {
+                "Type of Span": "WorkSpan",
+                "Apply Date Time": {
+                  "Apply Date": "1/08/2025",
+                  "Start Time": "16:00",
+                  "End Time": "17:30"
+                },
+                "Work Rule": {
+                  "Name": "Manufacturing"
+                },
+                "Transfer Set": {
+                  "Primary Job": false
+                },
+                "Reason": {
+                  "Start Reason": "zone",
+                  "End Reason": "otLimitProcessing"
+                },
+                "Annotations": {
+                  "Start Annotation": "",
+                  "End Annotation": "",
+                  "Span Annotation": "ORIGINAL_ZONES  LimitHolder ORIGINAL_ZONES Simple Tenths Scheduled Time Transfer(Home)"
+                },
+                "Kinds of Time": {
+                  "Zone Rule": [
+                    {
+                      "Type of Zone Rule": "ShiftDifferentialZoneRule",
+                      "Id": 5,
+                      "Name": "Evening Work 4p-10p",
+                      "Approval Required": false,
+                      "Start Time": "16:00",
+                      "End Time": "22:00"
+                    }
+                  ]
+                },
+                "Paid": true
+              },
+              {
+                "Type of Span": "WorkSpan",
+                "Apply Date Time": {
+                  "Apply Date": "1/08/2025",
+                  "Start Time": "17:30",
+                  "End Time": "21:00"
+                },
+                "Work Rule": {
+                  "Name": "Manufacturing"
+                },
+                "Transfer Set": {
+                  "Primary Job": false
+                },
+                "Reason": {
+                  "Start Reason": "otLimitProcessing",
+                  "End Reason": "out"
+                },
+                "Annotations": {
+                  "Start Annotation": "",
+                  "End Annotation": "LateOutViolation ShortTotalBreakExceptionViolation Punch(1/08/2025 21:00 GMT-05:00)",
+                  "Span Annotation": "ORIGINAL_ZONES  UnapprovedTime LimitHolder ORIGINAL_ZONES Simple Tenths Scheduled Time Transfer(Home)"
+                },
+                "Kinds of Time": {
+                  "Zone Rule": []
+                },
+                "Paid": true
+              }
+            ],
+            "is Scheduled": true
+          },
+          {
+            "Shift Id": "",
+            "Start Date Time": "1/09/2025 11:00 GMT-05:00",
+            "End Date Time": "1/09/2025 22:00 GMT-05:00",
+            "Number of Segments": 4,
+            "Position Id": "-1405",
+            "Work Rule": {
+              "Name": "Manufacturing"
+            },
+            "Schedule Shifts": {
+              "Schedule Shift Id": "13151",
+              "Apply Date": "1/09/2025",
+              "Start Date Time": "1/09/2025 9:00 GMT-05:00",
+              "End Date Time": "1/09/2025 17:00 GMT-05:00",
+              "Work Rule": {
+                "Name": "Manufacturing"
+              },
+              "No of Segments": 2,
+              "Schedule Segments": [
+                {
+                  "Start Date Time": "1/09/2025 9:00 GMT-05:00",
+                  "End Date Time": "1/09/2025 13:00 GMT-05:00",
+                  "Projected": false,
+                  "Work Rule from Schedule": false
+                },
+                {
+                  "Start Date Time": "1/09/2025 13:00 GMT-05:00",
+                  "End Date Time": "1/09/2025 17:00 GMT-05:00",
+                  "Projected": false,
+                  "Work Rule from Schedule": false
+                }
+              ]
+            },
+            "Work Spans": [
+              {
+                "Type of Span": "WorkSpan",
+                "Apply Date Time": {
+                  "Apply Date": "1/09/2025",
+                  "Start Time": "11:00",
+                  "End Time": "13:00"
+                },
+                "Work Rule": {
+                  "Name": "Manufacturing"
+                },
+                "Transfer Set": {
+                  "Primary Job": false
+                },
+                "Reason": {
+                  "Start Reason": "newShift",
+                  "End Reason": "schedTransfer"
+                },
+                "Annotations": {
+                  "Start Annotation": "ProcessedSegmentAnnotation LateViolation ScheduleLaborAccount(null) ScheduleLaborAccount(null) Punch(1/09/2025 11:00 GMT-05:00)",
+                  "End Annotation": "",
+                  "Span Annotation": "ORIGINAL_ZONES  LimitHolder ORIGINAL_ZONES Simple Tenths Scheduled Time Transfer(Home)"
+                },
+                "Paid": true
+              },
+              {
+                "Type of Span": "WorkSpan",
+                "Apply Date Time": {
+                  "Apply Date": "1/09/2025",
+                  "Start Time": "13:00",
+                  "End Time": "16:00"
+                },
+                "Work Rule": {
+                  "Name": "Manufacturing"
+                },
+                "Transfer Set": {
+                  "Cost Center": "CC_Production",
+                  "Primary Job": false
+                },
+                "Reason": {
+                  "Start Reason": "schedTransfer",
+                  "End Reason": "out"
+                },
+                "Annotations": {
+                  "Start Annotation": "ProcessedSegmentAnnotation ScheduleLaborAccount(151)",
+                  "End Annotation": "Break(30 Minute 15-7 Long No Except) Punch(1/09/2025 16:00 GMT-05:00)",
+                  "Span Annotation": "ORIGINAL_ZONES  LimitHolder ORIGINAL_ZONES Simple Tenths Scheduled Time Transfer([laborAccountId: 151 jobId: 53 employeeId: null isPrimary: false])"
+                },
+                "Paid": true
+              },
+              {
+                "Type of Span": "WorkSpan",
+                "Apply Date Time": {
+                  "Apply Date": "1/09/2025",
+                  "Start Time": "16:00",
+                  "End Time": "16:30"
+                },
+                "Work Rule": {
+                  "Name": "Manufacturing"
+                },
+                "Transfer Set": {
+                  "Cost Center": "CC_Production",
+                  "Primary Job": false
+                },
+                "Reason": {
+                  "Start Reason": "",
+                  "End Reason": ""
+                },
+                "Annotations": {
+                  "Start Annotation": "ProcessedSegmentAnnotation Break(30 Minute 15-7 Long No Except)",
+                  "End Annotation": "Break(30 Minute 15-7 Long No Except) Punch(1/09/2025 16:01 GMT-05:00)",
+                  "Span Annotation": "ORIGINAL_ZONES  LimitHolder ORIGINAL_ZONES Simple Tenths Scheduled Time OutInterval Break(30 Minute 15-7 Long No Except) Transfer([laborAccountId: 151 jobId: 53 employeeId: null isPrimary: false]) OutInterval"
+                },
+                "Kinds of Time": {
+                  "Zone Rule": [
+                    {
+                      "Type of Zone Rule": "ShiftDifferentialZoneRule",
+                      "Id": 5,
+                      "Name": "Evening Work 4p-10p",
+                      "Approval Required": false,
+                      "Start Time": "16:00",
+                      "End Time": "22:00"
+                    }
+                  ]
+                },
+                "Paid": true
+              },
+              {
+                "Type of Span": "WorkSpan",
+                "Apply Date Time": {
+                  "Apply Date": "1/09/2025",
+                  "Start Time": "16:30",
+                  "End Time": "19:30"
+                },
+                "Work Rule": {
+                  "Name": "Manufacturing"
+                },
+                "Transfer Set": {
+                  "Cost Center": "CC_Production",
+                  "Primary Job": false
+                },
+                "Reason": {
+                  "Start Reason": "break:30 Minute 15-7 Long No Except",
+                  "End Reason": "otLimitProcessing"
+                },
+                "Annotations": {
+                  "Start Annotation": "ProcessedSegmentAnnotation Break(30 Minute 15-7 Long No Except) Punch(1/09/2025 16:01 GMT-05:00)",
+                  "End Annotation": "",
+                  "Span Annotation": "ORIGINAL_ZONES  LimitHolder ORIGINAL_ZONES Simple Tenths Scheduled Time Transfer([laborAccountId: 151 jobId: 53 employeeId: null isPrimary: false])"
+                },
+                "Kinds of Time": {
+                  "Zone Rule": [
+                    {
+                      "Type of Zone Rule": "ShiftDifferentialZoneRule",
+                      "Id": 5,
+                      "Name": "Evening Work 4p-10p",
+                      "Approval Required": false,
+                      "Start Time": "16:00",
+                      "End Time": "22:00"
+                    }
+                  ]
+                },
+                "Paid": true
+              },
+              {
+                "Type of Span": "WorkSpan",
+                "Apply Date Time": {
+                  "Apply Date": "1/09/2025",
+                  "Start Time": "19:30",
+                  "End Time": "22:00"
+                },
+                "Work Rule": {
+                  "Name": "Manufacturing"
+                },
+                "Transfer Set": {
+                  "Cost Center": "CC_Production",
+                  "Primary Job": false
+                },
+                "Reason": {
+                  "Start Reason": "otLimitProcessing",
+                  "End Reason": "out"
+                },
+                "Annotations": {
+                  "Start Annotation": "",
+                  "End Annotation": "LateOutViolation ShortTotalBreakExceptionViolation Punch(1/09/2025 22:00 GMT-05:00)",
+                  "Span Annotation": "ORIGINAL_ZONES  UnapprovedTime LimitHolder ORIGINAL_ZONES Simple Tenths Scheduled Time Transfer([laborAccountId: 151 jobId: 53 employeeId: null isPrimary: false])"
+                },
+                "Kinds of Time": {
+                  "Zone Rule": []
+                },
+                "Paid": true
+              }
+            ],
+            "is Scheduled": true
+          }
+        ],
+        "Overtime": {
+          "overtimeRules": [
+            {
+              "overtimeRuleDetails": {
+                "contributing paycode rule": "",
+                "contributing paycode id": "",
+                "isApprovalRequired": "true",
+                "isOverridingPayCodesFromContributingPayCodesRule": "false",
+                "isOverridingPayCodes": "false"
+              },
+              "Overtime Id": "65",
+              "name": "40 Hour Weekly",
+              "ruleDetails": {
+                "contributing paycode rule": "",
+                "contributing paycode id": "",
+                "isApprovalRequired": "true",
+                "isOverridingPayCodesFromContributingPayCodesRule": "false",
+                "isOverridingPayCodes": "false"
+              }
+            },
+            {
+              "overtimeRuleDetails": {
+                "contributing paycode rule": "",
+                "contributing paycode id": "",
+                "isApprovalRequired": "true",
+                "isOverridingPayCodesFromContributingPayCodesRule": "false",
+                "isOverridingPayCodes": "false"
+              },
+              "Overtime Id": "67",
+              "name": "8.5 Hour Overtime",
+              "ruleDetails": {
+                "contributing paycode rule": "",
+                "contributing paycode id": "",
+                "isApprovalRequired": "true",
+                "isOverridingPayCodesFromContributingPayCodesRule": "false",
+                "isOverridingPayCodes": "false"
+              }
+            }
+          ],
+          "overtimeDenials": [],
+          "overtimeApprovals": [],
+          "unapprovedOvertimes": [
+            {
+              "approvedOvertimeStartDT": "1/08/2025 17:30 GMT-05:00",
+              "approvedOvertimeEndDT": "1/08/2025 21:00 GMT-05:00",
+              "amount": "3.5",
+              "wage": "0.00",
+              "unapprovedOvertimePaycodeName": "Unapproved Overtime Hours",
+              "unapprovedOvertimePaycodeId": "170"
+            },
+            {
+              "approvedOvertimeStartDT": "1/09/2025 19:30 GMT-05:00",
+              "approvedOvertimeEndDT": "1/09/2025 22:00 GMT-05:00",
+              "amount": "2.5",
+              "wage": "0.00",
+              "unapprovedOvertimePaycodeName": "Unapproved Overtime Hours",
+              "unapprovedOvertimePaycodeId": "170"
+            }
+          ]
+        },
+        "Absences": [
+          {
+            "Apply Dates": "[1/07/2025]",
+            "Schedule Shift": {
+              "Start Date Time": "1/07/2025 9:00 GMT-05:00",
+              "End Date Time": "1/07/2025 17:00 GMT-05:00",
+              "Work Rule": {
+                "Name": "Manufacturing"
+              },
+              "No of Segments": 1
+            },
+            "Exceptions": "[ExceptionSegment-0 1/07/2025 9:00 - 1/07/2025 17:00]"
+          }
+        ],
+        "CarryForward": {
+          "Locked Half Shifts": [],
+          "Carry Forward Spans": [],
+          "Callback Spans": [],
+          "Pay Code Edits": [],
+          "Bonus Info": []
+        }
+      },
+      {
+        "Execution Step": "adjustZones",
+        "Shifts": [
+          {
+            "Shift Id": "",
+            "Start Date Time": "1/08/2025 9:00 GMT-05:00",
+            "End Date Time": "1/08/2025 21:00 GMT-05:00",
+            "Number of Segments": 1,
+            "Position Id": "-1405",
+            "Work Rule": {
+              "Name": "Manufacturing"
+            },
+            "Schedule Shifts": {
+              "Schedule Shift Id": "13152",
+              "Apply Date": "1/08/2025",
+              "Start Date Time": "1/08/2025 13:00 GMT-05:00",
+              "End Date Time": "1/08/2025 17:00 GMT-05:00",
+              "Work Rule": {
+                "Name": "Manufacturing"
+              },
+              "No of Segments": 1,
+              "Schedule Segments": [
+                {
+                  "Start Date Time": "1/08/2025 13:00 GMT-05:00",
+                  "End Date Time": "1/08/2025 17:00 GMT-05:00",
+                  "Projected": false,
+                  "Work Rule from Schedule": false
+                }
+              ]
+            },
+            "Work Spans": [
+              {
+                "Type of Span": "WorkSpan",
+                "Apply Date Time": {
+                  "Apply Date": "1/08/2025",
+                  "Start Time": "9:00",
+                  "End Time": "16:00"
+                },
+                "Work Rule": {
+                  "Name": "Manufacturing"
+                },
+                "Transfer Set": {
+                  "Primary Job": false
+                },
+                "Reason": {
+                  "Start Reason": "newShift",
+                  "End Reason": "zone"
+                },
+                "Annotations": {
+                  "Start Annotation": "ProcessedSegmentAnnotation EarlyViolation ScheduleLaborAccount(null) ScheduleLaborAccount(null) Punch(1/08/2025 9:00 GMT-05:00)",
+                  "End Annotation": "",
+                  "Span Annotation": "ORIGINAL_ZONES  LimitHolder ORIGINAL_ZONES Simple Tenths Scheduled Time Transfer(Home)"
+                },
+                "Paid": true
+              },
+              {
+                "Type of Span": "WorkSpan",
+                "Apply Date Time": {
+                  "Apply Date": "1/08/2025",
+                  "Start Time": "16:00",
+                  "End Time": "17:30"
+                },
+                "Work Rule": {
+                  "Name": "Manufacturing"
+                },
+                "Transfer Set": {
+                  "Primary Job": false
+                },
+                "Reason": {
+                  "Start Reason": "zone",
+                  "End Reason": "otLimitProcessing"
+                },
+                "Annotations": {
+                  "Start Annotation": "",
+                  "End Annotation": "",
+                  "Span Annotation": "ORIGINAL_ZONES  LimitHolder ORIGINAL_ZONES Simple Tenths Scheduled Time Transfer(Home)"
+                },
+                "Kinds of Time": {
+                  "Zone Rule": [
+                    {
+                      "Type of Zone Rule": "ShiftDifferentialZoneRule",
+                      "Id": 5,
+                      "Name": "Evening Work 4p-10p",
+                      "Approval Required": false,
+                      "Start Time": "16:00",
+                      "End Time": "22:00"
+                    }
+                  ]
+                },
+                "Paid": true
+              },
+              {
+                "Type of Span": "WorkSpan",
+                "Apply Date Time": {
+                  "Apply Date": "1/08/2025",
+                  "Start Time": "17:30",
+                  "End Time": "21:00"
+                },
+                "Work Rule": {
+                  "Name": "Manufacturing"
+                },
+                "Transfer Set": {
+                  "Primary Job": false
+                },
+                "Reason": {
+                  "Start Reason": "otLimitProcessing",
+                  "End Reason": "out"
+                },
+                "Annotations": {
+                  "Start Annotation": "",
+                  "End Annotation": "LateOutViolation ShortTotalBreakExceptionViolation Punch(1/08/2025 21:00 GMT-05:00)",
+                  "Span Annotation": "ORIGINAL_ZONES  UnapprovedTime LimitHolder ORIGINAL_ZONES Simple Tenths Scheduled Time Transfer(Home)"
+                },
+                "Kinds of Time": {
+                  "Zone Rule": []
+                },
+                "Paid": true
+              }
+            ],
+            "is Scheduled": true
+          },
+          {
+            "Shift Id": "",
+            "Start Date Time": "1/09/2025 11:00 GMT-05:00",
+            "End Date Time": "1/09/2025 22:00 GMT-05:00",
+            "Number of Segments": 4,
+            "Position Id": "-1405",
+            "Work Rule": {
+              "Name": "Manufacturing"
+            },
+            "Schedule Shifts": {
+              "Schedule Shift Id": "13151",
+              "Apply Date": "1/09/2025",
+              "Start Date Time": "1/09/2025 9:00 GMT-05:00",
+              "End Date Time": "1/09/2025 17:00 GMT-05:00",
+              "Work Rule": {
+                "Name": "Manufacturing"
+              },
+              "No of Segments": 2,
+              "Schedule Segments": [
+                {
+                  "Start Date Time": "1/09/2025 9:00 GMT-05:00",
+                  "End Date Time": "1/09/2025 13:00 GMT-05:00",
+                  "Projected": false,
+                  "Work Rule from Schedule": false
+                },
+                {
+                  "Start Date Time": "1/09/2025 13:00 GMT-05:00",
+                  "End Date Time": "1/09/2025 17:00 GMT-05:00",
+                  "Projected": false,
+                  "Work Rule from Schedule": false
+                }
+              ]
+            },
+            "Work Spans": [
+              {
+                "Type of Span": "WorkSpan",
+                "Apply Date Time": {
+                  "Apply Date": "1/09/2025",
+                  "Start Time": "11:00",
+                  "End Time": "13:00"
+                },
+                "Work Rule": {
+                  "Name": "Manufacturing"
+                },
+                "Transfer Set": {
+                  "Primary Job": false
+                },
+                "Reason": {
+                  "Start Reason": "newShift",
+                  "End Reason": "schedTransfer"
+                },
+                "Annotations": {
+                  "Start Annotation": "ProcessedSegmentAnnotation LateViolation ScheduleLaborAccount(null) ScheduleLaborAccount(null) Punch(1/09/2025 11:00 GMT-05:00)",
+                  "End Annotation": "",
+                  "Span Annotation": "ORIGINAL_ZONES  LimitHolder ORIGINAL_ZONES Simple Tenths Scheduled Time Transfer(Home)"
+                },
+                "Paid": true
+              },
+              {
+                "Type of Span": "WorkSpan",
+                "Apply Date Time": {
+                  "Apply Date": "1/09/2025",
+                  "Start Time": "13:00",
+                  "End Time": "16:00"
+                },
+                "Work Rule": {
+                  "Name": "Manufacturing"
+                },
+                "Transfer Set": {
+                  "Cost Center": "CC_Production",
+                  "Primary Job": false
+                },
+                "Reason": {
+                  "Start Reason": "schedTransfer",
+                  "End Reason": "out"
+                },
+                "Annotations": {
+                  "Start Annotation": "ProcessedSegmentAnnotation ScheduleLaborAccount(151)",
+                  "End Annotation": "Break(30 Minute 15-7 Long No Except) Punch(1/09/2025 16:00 GMT-05:00)",
+                  "Span Annotation": "ORIGINAL_ZONES  LimitHolder ORIGINAL_ZONES Simple Tenths Scheduled Time Transfer([laborAccountId: 151 jobId: 53 employeeId: null isPrimary: false])"
+                },
+                "Paid": true
+              },
+              {
+                "Type of Span": "WorkSpan",
+                "Apply Date Time": {
+                  "Apply Date": "1/09/2025",
+                  "Start Time": "16:00",
+                  "End Time": "16:30"
+                },
+                "Work Rule": {
+                  "Name": "Manufacturing"
+                },
+                "Transfer Set": {
+                  "Cost Center": "CC_Production",
+                  "Primary Job": false
+                },
+                "Reason": {
+                  "Start Reason": "",
+                  "End Reason": ""
+                },
+                "Annotations": {
+                  "Start Annotation": "ProcessedSegmentAnnotation Break(30 Minute 15-7 Long No Except)",
+                  "End Annotation": "Break(30 Minute 15-7 Long No Except) Punch(1/09/2025 16:01 GMT-05:00)",
+                  "Span Annotation": "ORIGINAL_ZONES  LimitHolder ORIGINAL_ZONES Simple Tenths Scheduled Time OutInterval Break(30 Minute 15-7 Long No Except) Transfer([laborAccountId: 151 jobId: 53 employeeId: null isPrimary: false]) OutInterval"
+                },
+                "Kinds of Time": {
+                  "Zone Rule": [
+                    {
+                      "Type of Zone Rule": "ShiftDifferentialZoneRule",
+                      "Id": 5,
+                      "Name": "Evening Work 4p-10p",
+                      "Approval Required": false,
+                      "Start Time": "16:00",
+                      "End Time": "22:00"
+                    }
+                  ]
+                },
+                "Paid": true
+              },
+              {
+                "Type of Span": "WorkSpan",
+                "Apply Date Time": {
+                  "Apply Date": "1/09/2025",
+                  "Start Time": "16:30",
+                  "End Time": "19:30"
+                },
+                "Work Rule": {
+                  "Name": "Manufacturing"
+                },
+                "Transfer Set": {
+                  "Cost Center": "CC_Production",
+                  "Primary Job": false
+                },
+                "Reason": {
+                  "Start Reason": "break:30 Minute 15-7 Long No Except",
+                  "End Reason": "otLimitProcessing"
+                },
+                "Annotations": {
+                  "Start Annotation": "ProcessedSegmentAnnotation Break(30 Minute 15-7 Long No Except) Punch(1/09/2025 16:01 GMT-05:00)",
+                  "End Annotation": "",
+                  "Span Annotation": "ORIGINAL_ZONES  LimitHolder ORIGINAL_ZONES Simple Tenths Scheduled Time Transfer([laborAccountId: 151 jobId: 53 employeeId: null isPrimary: false])"
+                },
+                "Kinds of Time": {
+                  "Zone Rule": [
+                    {
+                      "Type of Zone Rule": "ShiftDifferentialZoneRule",
+                      "Id": 5,
+                      "Name": "Evening Work 4p-10p",
+                      "Approval Required": false,
+                      "Start Time": "16:00",
+                      "End Time": "22:00"
+                    }
+                  ]
+                },
+                "Paid": true
+              },
+              {
+                "Type of Span": "WorkSpan",
+                "Apply Date Time": {
+                  "Apply Date": "1/09/2025",
+                  "Start Time": "19:30",
+                  "End Time": "22:00"
+                },
+                "Work Rule": {
+                  "Name": "Manufacturing"
+                },
+                "Transfer Set": {
+                  "Cost Center": "CC_Production",
+                  "Primary Job": false
+                },
+                "Reason": {
+                  "Start Reason": "otLimitProcessing",
+                  "End Reason": "out"
+                },
+                "Annotations": {
+                  "Start Annotation": "",
+                  "End Annotation": "LateOutViolation ShortTotalBreakExceptionViolation Punch(1/09/2025 22:00 GMT-05:00)",
+                  "Span Annotation": "ORIGINAL_ZONES  UnapprovedTime LimitHolder ORIGINAL_ZONES Simple Tenths Scheduled Time Transfer([laborAccountId: 151 jobId: 53 employeeId: null isPrimary: false])"
+                },
+                "Kinds of Time": {
+                  "Zone Rule": []
+                },
+                "Paid": true
+              }
+            ],
+            "is Scheduled": true
+          }
+        ],
+        "Overtime": {
+          "overtimeRules": [
+            {
+              "overtimeRuleDetails": {
+                "contributing paycode rule": "",
+                "contributing paycode id": "",
+                "isApprovalRequired": "true",
+                "isOverridingPayCodesFromContributingPayCodesRule": "false",
+                "isOverridingPayCodes": "false"
+              },
+              "Overtime Id": "65",
+              "name": "40 Hour Weekly",
+              "ruleDetails": {
+                "contributing paycode rule": "",
+                "contributing paycode id": "",
+                "isApprovalRequired": "true",
+                "isOverridingPayCodesFromContributingPayCodesRule": "false",
+                "isOverridingPayCodes": "false"
+              }
+            },
+            {
+              "overtimeRuleDetails": {
+                "contributing paycode rule": "",
+                "contributing paycode id": "",
+                "isApprovalRequired": "true",
+                "isOverridingPayCodesFromContributingPayCodesRule": "false",
+                "isOverridingPayCodes": "false"
+              },
+              "Overtime Id": "67",
+              "name": "8.5 Hour Overtime",
+              "ruleDetails": {
+                "contributing paycode rule": "",
+                "contributing paycode id": "",
+                "isApprovalRequired": "true",
+                "isOverridingPayCodesFromContributingPayCodesRule": "false",
+                "isOverridingPayCodes": "false"
+              }
+            }
+          ],
+          "overtimeDenials": [],
+          "overtimeApprovals": [],
+          "unapprovedOvertimes": [
+            {
+              "approvedOvertimeStartDT": "1/08/2025 17:30 GMT-05:00",
+              "approvedOvertimeEndDT": "1/08/2025 21:00 GMT-05:00",
+              "amount": "3.5",
+              "wage": "0.00",
+              "unapprovedOvertimePaycodeName": "Unapproved Overtime Hours",
+              "unapprovedOvertimePaycodeId": "170"
+            },
+            {
+              "approvedOvertimeStartDT": "1/09/2025 19:30 GMT-05:00",
+              "approvedOvertimeEndDT": "1/09/2025 22:00 GMT-05:00",
+              "amount": "2.5",
+              "wage": "0.00",
+              "unapprovedOvertimePaycodeName": "Unapproved Overtime Hours",
+              "unapprovedOvertimePaycodeId": "170"
+            }
+          ]
+        },
+        "Absences": [
+          {
+            "Apply Dates": "[1/07/2025]",
+            "Schedule Shift": {
+              "Start Date Time": "1/07/2025 9:00 GMT-05:00",
+              "End Date Time": "1/07/2025 17:00 GMT-05:00",
+              "Work Rule": {
+                "Name": "Manufacturing"
+              },
+              "No of Segments": 1
+            },
+            "Exceptions": "[ExceptionSegment-0 1/07/2025 9:00 - 1/07/2025 17:00]"
+          }
+        ],
+        "CarryForward": {
+          "Locked Half Shifts": [],
+          "Carry Forward Spans": [],
+          "Callback Spans": [],
+          "Pay Code Edits": [],
+          "Bonus Info": []
+        }
+      },
+      {
+        "Execution Step": "postPeriodProcessing (totaledData)",
+        "Shifts": [
+          {
+            "Shift Id": "",
+            "Start Date Time": "1/08/2025 9:00 GMT-05:00",
+            "End Date Time": "1/08/2025 21:00 GMT-05:00",
+            "Number of Segments": 1,
+            "Position Id": "-1405",
+            "Work Rule": {
+              "Name": "Manufacturing"
+            },
+            "Schedule Shifts": {
+              "Schedule Shift Id": "13152",
+              "Apply Date": "1/08/2025",
+              "Start Date Time": "1/08/2025 13:00 GMT-05:00",
+              "End Date Time": "1/08/2025 17:00 GMT-05:00",
+              "Work Rule": {
+                "Name": "Manufacturing"
+              },
+              "No of Segments": 1,
+              "Schedule Segments": [
+                {
+                  "Start Date Time": "1/08/2025 13:00 GMT-05:00",
+                  "End Date Time": "1/08/2025 17:00 GMT-05:00",
+                  "Projected": false,
+                  "Work Rule from Schedule": false
+                }
+              ]
+            },
+            "Work Spans": [
+              {
+                "Type of Span": "WorkSpan",
+                "Apply Date Time": {
+                  "Apply Date": "1/08/2025",
+                  "Start Time": "9:00",
+                  "End Time": "16:00"
+                },
+                "Work Rule": {
+                  "Name": "Manufacturing"
+                },
+                "Transfer Set": {
+                  "Primary Job": false
+                },
+                "Reason": {
+                  "Start Reason": "newShift",
+                  "End Reason": "zone"
+                },
+                "Annotations": {
+                  "Start Annotation": "ProcessedSegmentAnnotation EarlyViolation ScheduleLaborAccount(null) ScheduleLaborAccount(null) Punch(1/08/2025 9:00 GMT-05:00)",
+                  "End Annotation": "",
+                  "Span Annotation": "ORIGINAL_ZONES  LimitHolder ORIGINAL_ZONES Simple Tenths Scheduled Time Transfer(Home)"
+                },
+                "Paid": true
+              },
+              {
+                "Type of Span": "WorkSpan",
+                "Apply Date Time": {
+                  "Apply Date": "1/08/2025",
+                  "Start Time": "16:00",
+                  "End Time": "17:30"
+                },
+                "Work Rule": {
+                  "Name": "Manufacturing"
+                },
+                "Transfer Set": {
+                  "Primary Job": false
+                },
+                "Reason": {
+                  "Start Reason": "zone",
+                  "End Reason": "otLimitProcessing"
+                },
+                "Annotations": {
+                  "Start Annotation": "",
+                  "End Annotation": "",
+                  "Span Annotation": "ORIGINAL_ZONES  LimitHolder ORIGINAL_ZONES Simple Tenths Scheduled Time Transfer(Home)"
+                },
+                "Kinds of Time": {
+                  "Zone Rule": [
+                    {
+                      "Type of Zone Rule": "ShiftDifferentialZoneRule",
+                      "Id": 5,
+                      "Name": "Evening Work 4p-10p",
+                      "Approval Required": false,
+                      "Start Time": "16:00",
+                      "End Time": "22:00"
+                    }
+                  ]
+                },
+                "Paid": true
+              },
+              {
+                "Type of Span": "WorkSpan",
+                "Apply Date Time": {
+                  "Apply Date": "1/08/2025",
+                  "Start Time": "17:30",
+                  "End Time": "21:00"
+                },
+                "Work Rule": {
+                  "Name": "Manufacturing"
+                },
+                "Transfer Set": {
+                  "Primary Job": false
+                },
+                "Reason": {
+                  "Start Reason": "otLimitProcessing",
+                  "End Reason": "out"
+                },
+                "Annotations": {
+                  "Start Annotation": "",
+                  "End Annotation": "LateOutViolation ShortTotalBreakExceptionViolation Punch(1/08/2025 21:00 GMT-05:00)",
+                  "Span Annotation": "ORIGINAL_ZONES  UnapprovedTime LimitHolder ORIGINAL_ZONES Simple Tenths Scheduled Time Transfer(Home)"
+                },
+                "Kinds of Time": {
+                  "Zone Rule": []
+                },
+                "Paid": true
+              }
+            ],
+            "is Scheduled": true
+          },
+          {
+            "Shift Id": "",
+            "Start Date Time": "1/09/2025 11:00 GMT-05:00",
+            "End Date Time": "1/09/2025 22:00 GMT-05:00",
+            "Number of Segments": 4,
+            "Position Id": "-1405",
+            "Work Rule": {
+              "Name": "Manufacturing"
+            },
+            "Schedule Shifts": {
+              "Schedule Shift Id": "13151",
+              "Apply Date": "1/09/2025",
+              "Start Date Time": "1/09/2025 9:00 GMT-05:00",
+              "End Date Time": "1/09/2025 17:00 GMT-05:00",
+              "Work Rule": {
+                "Name": "Manufacturing"
+              },
+              "No of Segments": 2,
+              "Schedule Segments": [
+                {
+                  "Start Date Time": "1/09/2025 9:00 GMT-05:00",
+                  "End Date Time": "1/09/2025 13:00 GMT-05:00",
+                  "Projected": false,
+                  "Work Rule from Schedule": false
+                },
+                {
+                  "Start Date Time": "1/09/2025 13:00 GMT-05:00",
+                  "End Date Time": "1/09/2025 17:00 GMT-05:00",
+                  "Projected": false,
+                  "Work Rule from Schedule": false
+                }
+              ]
+            },
+            "Work Spans": [
+              {
+                "Type of Span": "WorkSpan",
+                "Apply Date Time": {
+                  "Apply Date": "1/09/2025",
+                  "Start Time": "11:00",
+                  "End Time": "13:00"
+                },
+                "Work Rule": {
+                  "Name": "Manufacturing"
+                },
+                "Transfer Set": {
+                  "Primary Job": false
+                },
+                "Reason": {
+                  "Start Reason": "newShift",
+                  "End Reason": "schedTransfer"
+                },
+                "Annotations": {
+                  "Start Annotation": "ProcessedSegmentAnnotation LateViolation ScheduleLaborAccount(null) ScheduleLaborAccount(null) Punch(1/09/2025 11:00 GMT-05:00)",
+                  "End Annotation": "",
+                  "Span Annotation": "ORIGINAL_ZONES  LimitHolder ORIGINAL_ZONES Simple Tenths Scheduled Time Transfer(Home)"
+                },
+                "Paid": true
+              },
+              {
+                "Type of Span": "WorkSpan",
+                "Apply Date Time": {
+                  "Apply Date": "1/09/2025",
+                  "Start Time": "13:00",
+                  "End Time": "16:00"
+                },
+                "Work Rule": {
+                  "Name": "Manufacturing"
+                },
+                "Transfer Set": {
+                  "Cost Center": "CC_Production",
+                  "Primary Job": false
+                },
+                "Reason": {
+                  "Start Reason": "schedTransfer",
+                  "End Reason": "out"
+                },
+                "Annotations": {
+                  "Start Annotation": "ProcessedSegmentAnnotation ScheduleLaborAccount(151)",
+                  "End Annotation": "Break(30 Minute 15-7 Long No Except) Punch(1/09/2025 16:00 GMT-05:00)",
+                  "Span Annotation": "ORIGINAL_ZONES  LimitHolder ORIGINAL_ZONES Simple Tenths Scheduled Time Transfer([laborAccountId: 151 jobId: 53 employeeId: null isPrimary: false])"
+                },
+                "Paid": true
+              },
+              {
+                "Type of Span": "WorkSpan",
+                "Apply Date Time": {
+                  "Apply Date": "1/09/2025",
+                  "Start Time": "16:00",
+                  "End Time": "16:30"
+                },
+                "Work Rule": {
+                  "Name": "Manufacturing"
+                },
+                "Transfer Set": {
+                  "Cost Center": "CC_Production",
+                  "Primary Job": false
+                },
+                "Reason": {
+                  "Start Reason": "",
+                  "End Reason": ""
+                },
+                "Annotations": {
+                  "Start Annotation": "ProcessedSegmentAnnotation Break(30 Minute 15-7 Long No Except)",
+                  "End Annotation": "Break(30 Minute 15-7 Long No Except) Punch(1/09/2025 16:01 GMT-05:00)",
+                  "Span Annotation": "ORIGINAL_ZONES  LimitHolder ORIGINAL_ZONES Simple Tenths Scheduled Time OutInterval Break(30 Minute 15-7 Long No Except) Transfer([laborAccountId: 151 jobId: 53 employeeId: null isPrimary: false]) OutInterval"
+                },
+                "Kinds of Time": {
+                  "Zone Rule": [
+                    {
+                      "Type of Zone Rule": "ShiftDifferentialZoneRule",
+                      "Id": 5,
+                      "Name": "Evening Work 4p-10p",
+                      "Approval Required": false,
+                      "Start Time": "16:00",
+                      "End Time": "22:00"
+                    }
+                  ]
+                },
+                "Paid": true
+              },
+              {
+                "Type of Span": "WorkSpan",
+                "Apply Date Time": {
+                  "Apply Date": "1/09/2025",
+                  "Start Time": "16:30",
+                  "End Time": "19:30"
+                },
+                "Work Rule": {
+                  "Name": "Manufacturing"
+                },
+                "Transfer Set": {
+                  "Cost Center": "CC_Production",
+                  "Primary Job": false
+                },
+                "Reason": {
+                  "Start Reason": "break:30 Minute 15-7 Long No Except",
+                  "End Reason": "otLimitProcessing"
+                },
+                "Annotations": {
+                  "Start Annotation": "ProcessedSegmentAnnotation Break(30 Minute 15-7 Long No Except) Punch(1/09/2025 16:01 GMT-05:00)",
+                  "End Annotation": "",
+                  "Span Annotation": "ORIGINAL_ZONES  LimitHolder ORIGINAL_ZONES Simple Tenths Scheduled Time Transfer([laborAccountId: 151 jobId: 53 employeeId: null isPrimary: false])"
+                },
+                "Kinds of Time": {
+                  "Zone Rule": [
+                    {
+                      "Type of Zone Rule": "ShiftDifferentialZoneRule",
+                      "Id": 5,
+                      "Name": "Evening Work 4p-10p",
+                      "Approval Required": false,
+                      "Start Time": "16:00",
+                      "End Time": "22:00"
+                    }
+                  ]
+                },
+                "Paid": true
+              },
+              {
+                "Type of Span": "WorkSpan",
+                "Apply Date Time": {
+                  "Apply Date": "1/09/2025",
+                  "Start Time": "19:30",
+                  "End Time": "22:00"
+                },
+                "Work Rule": {
+                  "Name": "Manufacturing"
+                },
+                "Transfer Set": {
+                  "Cost Center": "CC_Production",
+                  "Primary Job": false
+                },
+                "Reason": {
+                  "Start Reason": "otLimitProcessing",
+                  "End Reason": "out"
+                },
+                "Annotations": {
+                  "Start Annotation": "",
+                  "End Annotation": "LateOutViolation ShortTotalBreakExceptionViolation Punch(1/09/2025 22:00 GMT-05:00)",
+                  "Span Annotation": "ORIGINAL_ZONES  UnapprovedTime LimitHolder ORIGINAL_ZONES Simple Tenths Scheduled Time Transfer([laborAccountId: 151 jobId: 53 employeeId: null isPrimary: false])"
+                },
+                "Kinds of Time": {
+                  "Zone Rule": []
+                },
+                "Paid": true
+              }
+            ],
+            "is Scheduled": true
+          }
+        ],
+        "Overtime": {
+          "overtimeRules": [
+            {
+              "overtimeRuleDetails": {
+                "contributing paycode rule": "",
+                "contributing paycode id": "",
+                "isApprovalRequired": "true",
+                "isOverridingPayCodesFromContributingPayCodesRule": "false",
+                "isOverridingPayCodes": "false"
+              },
+              "Overtime Id": "65",
+              "name": "40 Hour Weekly",
+              "ruleDetails": {
+                "contributing paycode rule": "",
+                "contributing paycode id": "",
+                "isApprovalRequired": "true",
+                "isOverridingPayCodesFromContributingPayCodesRule": "false",
+                "isOverridingPayCodes": "false"
+              }
+            },
+            {
+              "overtimeRuleDetails": {
+                "contributing paycode rule": "",
+                "contributing paycode id": "",
+                "isApprovalRequired": "true",
+                "isOverridingPayCodesFromContributingPayCodesRule": "false",
+                "isOverridingPayCodes": "false"
+              },
+              "Overtime Id": "67",
+              "name": "8.5 Hour Overtime",
+              "ruleDetails": {
+                "contributing paycode rule": "",
+                "contributing paycode id": "",
+                "isApprovalRequired": "true",
+                "isOverridingPayCodesFromContributingPayCodesRule": "false",
+                "isOverridingPayCodes": "false"
+              }
+            }
+          ],
+          "overtimeDenials": [],
+          "overtimeApprovals": [],
+          "unapprovedOvertimes": [
+            {
+              "approvedOvertimeStartDT": "1/08/2025 17:30 GMT-05:00",
+              "approvedOvertimeEndDT": "1/08/2025 21:00 GMT-05:00",
+              "amount": "3.5",
+              "wage": "0.00",
+              "unapprovedOvertimePaycodeName": "Unapproved Overtime Hours",
+              "unapprovedOvertimePaycodeId": "170"
+            },
+            {
+              "approvedOvertimeStartDT": "1/09/2025 19:30 GMT-05:00",
+              "approvedOvertimeEndDT": "1/09/2025 22:00 GMT-05:00",
+              "amount": "2.5",
+              "wage": "0.00",
+              "unapprovedOvertimePaycodeName": "Unapproved Overtime Hours",
+              "unapprovedOvertimePaycodeId": "170"
+            }
+          ]
+        },
+        "Absences": [
+          {
+            "Apply Dates": "[1/07/2025]",
+            "Schedule Shift": {
+              "Start Date Time": "1/07/2025 9:00 GMT-05:00",
+              "End Date Time": "1/07/2025 17:00 GMT-05:00",
+              "Work Rule": {
+                "Name": "Manufacturing"
+              },
+              "No of Segments": 1
+            },
+            "Exceptions": "[ExceptionSegment-0 1/07/2025 9:00 - 1/07/2025 17:00]"
+          }
+        ],
+        "CarryForward": {
+          "Locked Half Shifts": [],
+          "Carry Forward Spans": [],
+          "Callback Spans": [],
+          "Pay Code Edits": [],
+          "Bonus Info": []
+        },
+        "TotaledData": {
+          "Shift Items": [
+            {
+              "StartApplyDate": "1/08/2025",
+              "ScheduledTime": "13:00 - 17:00",
+              "Totaled Span": [
+                {
+                  "Time": "9:00 - 16:00",
+                  "WorkRule": "Manufacturing",
+                  "In Punch": "Punch(1/08/2025 9:00 GMT-05:00)",
+                  "Reason": {
+                    "Start Reason": "newShift",
+                    "End Reason": "zone"
+                  },
+                  "Annotation": {
+                    "Start Annotation": "ProcessedSegmentAnnotation EarlyViolation ScheduleLaborAccount(null) ScheduleLaborAccount(null) Punch(1/08/2025 9:00 GMT-05:00)",
+                    "End Annotation": ""
+                  },
+                  "Span Totals": [
+                    {
+                      "Paid": false,
+                      "Apply Date": "1/08/2025",
+                      "Time": "9:00 - 16:00",
+                      "PayCodeName": "Regular",
+                      "LaborAccountName": "null",
+                      "Duration": "7:00",
+                      "Wage Amount": "294.00",
+                      "Edited Days": "0.00"
+                    },
+                    {
+                      "Paid": false,
+                      "Apply Date": "1/08/2025",
+                      "Time": "9:00 - 16:00",
+                      "PayCodeName": "All Regular",
+                      "LaborAccountName": "null",
+                      "Duration": "7:00",
+                      "Wage Amount": "294.00",
+                      "Edited Days": "0.00"
+                    }
+                  ]
+                },
+                {
+                  "Time": "16:00 - 17:30",
+                  "WorkRule": "Manufacturing",
+                  "Reason": {
+                    "Start Reason": "zone",
+                    "End Reason": "otLimitProcessing"
+                  },
+                  "Annotation": {
+                    "Start Annotation": "",
+                    "End Annotation": ""
+                  },
+                  "Span Totals": [
+                    {
+                      "Paid": false,
+                      "Apply Date": "1/08/2025",
+                      "Time": "16:00 - 17:30",
+                      "PayCodeName": "EESDDE100",
+                      "LaborAccountName": "null",
+                      "Duration": "1:30",
+                      "Wage Amount": "63.00",
+                      "Edited Days": "0.00"
+                    },
+                    {
+                      "Paid": false,
+                      "Apply Date": "1/08/2025",
+                      "Time": "16:00 - 17:30",
+                      "PayCodeName": "ALL used for 0 Hours",
+                      "LaborAccountName": "null",
+                      "Duration": "1:30",
+                      "Wage Amount": "63.00",
+                      "Edited Days": "0.00"
+                    },
+                    {
+                      "Paid": false,
+                      "Apply Date": "1/08/2025",
+                      "Time": "16:00 - 17:30",
+                      "PayCodeName": "All Hours",
+                      "LaborAccountName": "null",
+                      "Duration": "1:30",
+                      "Wage Amount": "63.00",
+                      "Edited Days": "0.00"
+                    }
+                  ]
+                },
+                {
+                  "Time": "17:30 - 21:00",
+                  "WorkRule": "Manufacturing",
+                  "Out Punch": "Punch(1/08/2025 21:00 GMT-05:00)",
+                  "Reason": {
+                    "Start Reason": "otLimitProcessing",
+                    "End Reason": "out"
+                  },
+                  "Annotation": {
+                    "Start Annotation": "",
+                    "End Annotation": "LateOutViolation ShortTotalBreakExceptionViolation Punch(1/08/2025 21:00 GMT-05:00)"
+                  },
+                  "Span Totals": [
+                    {
+                      "Paid": false,
+                      "Apply Date": "1/08/2025",
+                      "Time": "17:30 - 21:00",
+                      "PayCodeName": "Unapproved Overtime Hours",
+                      "LaborAccountName": "null",
+                      "Duration": "3:30",
+                      "Wage Amount": "0.00",
+                      "Edited Days": "0.00"
+                    },
+                    {
+                      "Paid": false,
+                      "Apply Date": "1/08/2025",
+                      "Time": "17:30 - 21:00",
+                      "PayCodeName": "Total Compensation",
+                      "LaborAccountName": "null",
+                      "Duration": "3:30",
+                      "Wage Amount": "0.00",
+                      "Edited Days": "0.00"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "StartApplyDate": "1/09/2025",
+              "ScheduledTime": "9:00 - 17:00",
+              "Totaled Span": [
+                {
+                  "Time": "11:00 - 13:00",
+                  "WorkRule": "Manufacturing",
+                  "In Punch": "Punch(1/09/2025 11:00 GMT-05:00)",
+                  "Reason": {
+                    "Start Reason": "newShift",
+                    "End Reason": "schedTransfer"
+                  },
+                  "Annotation": {
+                    "Start Annotation": "ProcessedSegmentAnnotation LateViolation ScheduleLaborAccount(null) ScheduleLaborAccount(null) Punch(1/09/2025 11:00 GMT-05:00)",
+                    "End Annotation": ""
+                  },
+                  "Span Totals": [
+                    {
+                      "Paid": false,
+                      "Apply Date": "1/09/2025",
+                      "Time": "11:00 - 13:00",
+                      "PayCodeName": "Regular",
+                      "LaborAccountName": "null",
+                      "Duration": "2:00",
+                      "Wage Amount": "84.00",
+                      "Edited Days": "0.00"
+                    },
+                    {
+                      "Paid": false,
+                      "Apply Date": "1/09/2025",
+                      "Time": "11:00 - 13:00",
+                      "PayCodeName": "All Regular",
+                      "LaborAccountName": "null",
+                      "Duration": "2:00",
+                      "Wage Amount": "84.00",
+                      "Edited Days": "0.00"
+                    }
+                  ]
+                },
+                {
+                  "Time": "13:00 - 16:00",
+                  "WorkRule": "Manufacturing",
+                  "Out Punch": "Punch(1/09/2025 16:00 GMT-05:00)",
+                  "Reason": {
+                    "Start Reason": "schedTransfer",
+                    "End Reason": "out"
+                  },
+                  "Annotation": {
+                    "Start Annotation": "ProcessedSegmentAnnotation ScheduleLaborAccount(151)",
+                    "End Annotation": "Break(30 Minute 15-7 Long No Except) Punch(1/09/2025 16:00 GMT-05:00)"
+                  },
+                  "Span Totals": [
+                    {
+                      "Paid": false,
+                      "Apply Date": "1/09/2025",
+                      "Time": "13:00 - 16:00",
+                      "PayCodeName": "Regular",
+                      "LaborAccountName": "151",
+                      "Duration": "3:00",
+                      "Wage Amount": "126.00",
+                      "Edited Days": "0.00"
+                    },
+                    {
+                      "Paid": false,
+                      "Apply Date": "1/09/2025",
+                      "Time": "13:00 - 16:00",
+                      "PayCodeName": "All Regular",
+                      "LaborAccountName": "151",
+                      "Duration": "3:00",
+                      "Wage Amount": "126.00",
+                      "Edited Days": "0.00"
+                    }
+                  ]
+                },
+                {
+                  "Time": "16:00 - 16:30",
+                  "WorkRule": "Manufacturing",
+                  "In Punch": "Punch(1/09/2025 16:00 GMT-05:00)",
+                  "Out Punch": "Punch(1/09/2025 16:01 GMT-05:00)",
+                  "Reason": {
+                    "Start Reason": "",
+                    "End Reason": ""
+                  },
+                  "Annotation": {
+                    "Start Annotation": "ProcessedSegmentAnnotation Break(30 Minute 15-7 Long No Except)",
+                    "End Annotation": "Break(30 Minute 15-7 Long No Except) Punch(1/09/2025 16:01 GMT-05:00)"
+                  },
+                  "Span Totals": [
+                    {
+                      "Paid": false,
+                      "Apply Date": "1/09/2025",
+                      "Time": "16:00 - 16:30",
+                      "PayCodeName": "EESDDE100",
+                      "LaborAccountName": "151",
+                      "Duration": "0:30",
+                      "Wage Amount": "21.00",
+                      "Edited Days": "0.00"
+                    },
+                    {
+                      "Paid": false,
+                      "Apply Date": "1/09/2025",
+                      "Time": "16:00 - 16:30",
+                      "PayCodeName": "ALL used for 0 Hours",
+                      "LaborAccountName": "151",
+                      "Duration": "0:30",
+                      "Wage Amount": "21.00",
+                      "Edited Days": "0.00"
+                    },
+                    {
+                      "Paid": false,
+                      "Apply Date": "1/09/2025",
+                      "Time": "16:00 - 16:30",
+                      "PayCodeName": "All Hours",
+                      "LaborAccountName": "151",
+                      "Duration": "0:30",
+                      "Wage Amount": "21.00",
+                      "Edited Days": "0.00"
+                    }
+                  ]
+                },
+                {
+                  "Time": "16:30 - 19:30",
+                  "WorkRule": "Manufacturing",
+                  "In Punch": "Punch(1/09/2025 16:01 GMT-05:00)",
+                  "Reason": {
+                    "Start Reason": "break:30 Minute 15-7 Long No Except",
+                    "End Reason": "otLimitProcessing"
+                  },
+                  "Annotation": {
+                    "Start Annotation": "ProcessedSegmentAnnotation Break(30 Minute 15-7 Long No Except) Punch(1/09/2025 16:01 GMT-05:00)",
+                    "End Annotation": ""
+                  },
+                  "Span Totals": [
+                    {
+                      "Paid": false,
+                      "Apply Date": "1/09/2025",
+                      "Time": "16:30 - 19:30",
+                      "PayCodeName": "EESDDE100",
+                      "LaborAccountName": "151",
+                      "Duration": "3:00",
+                      "Wage Amount": "126.00",
+                      "Edited Days": "0.00"
+                    },
+                    {
+                      "Paid": false,
+                      "Apply Date": "1/09/2025",
+                      "Time": "16:30 - 19:30",
+                      "PayCodeName": "ALL used for 0 Hours",
+                      "LaborAccountName": "151",
+                      "Duration": "3:00",
+                      "Wage Amount": "126.00",
+                      "Edited Days": "0.00"
+                    },
+                    {
+                      "Paid": false,
+                      "Apply Date": "1/09/2025",
+                      "Time": "16:30 - 19:30",
+                      "PayCodeName": "All Hours",
+                      "LaborAccountName": "151",
+                      "Duration": "3:00",
+                      "Wage Amount": "126.00",
+                      "Edited Days": "0.00"
+                    }
+                  ]
+                },
+                {
+                  "Time": "19:30 - 22:00",
+                  "WorkRule": "Manufacturing",
+                  "Out Punch": "Punch(1/09/2025 22:00 GMT-05:00)",
+                  "Reason": {
+                    "Start Reason": "otLimitProcessing",
+                    "End Reason": "out"
+                  },
+                  "Annotation": {
+                    "Start Annotation": "",
+                    "End Annotation": "LateOutViolation ShortTotalBreakExceptionViolation Punch(1/09/2025 22:00 GMT-05:00)"
+                  },
+                  "Span Totals": [
+                    {
+                      "Paid": false,
+                      "Apply Date": "1/09/2025",
+                      "Time": "19:30 - 22:00",
+                      "PayCodeName": "Unapproved Overtime Hours",
+                      "LaborAccountName": "151",
+                      "Duration": "2:30",
+                      "Wage Amount": "0.00",
+                      "Edited Days": "0.00"
+                    },
+                    {
+                      "Paid": false,
+                      "Apply Date": "1/09/2025",
+                      "Time": "19:30 - 22:00",
+                      "PayCodeName": "Total Compensation",
+                      "LaborAccountName": "151",
+                      "Duration": "2:30",
+                      "Wage Amount": "0.00",
+                      "Edited Days": "0.00"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "NonShift Items": [
+            {
+              "PayCodeEditType": "PayCodeEdit",
+              "PayCodeName": "Regular Hours",
+              "ApplyTodate": "1/08/2025",
+              "Amount": "8:00",
+              "ScheduledAmountType": 0
+            }
+          ],
+          "Absence Items": [
+            {
+              "Apply Dates": "[1/07/2025]",
+              "Schedule Shift": {
+                "Start Date Time": "1/07/2025 9:00 GMT-05:00",
+                "End Date Time": "1/07/2025 17:00 GMT-05:00",
+                "Work Rule": {
+                  "Name": "Manufacturing"
+                },
+                "No of Segments": 1
+              },
+              "Exceptions": "[ExceptionSegment-0 1/07/2025 9:00 - 1/07/2025 17:00]"
+            }
+          ],
+          "TotaledData Summary": [
+            {
+              "PayCode Name": "ALL used for 0 Hours",
+              "Duration": "21:00",
+              "Wage Amount": "882.00",
+              "Edited Days": "0.00"
+            },
+            {
+              "PayCode Name": "All Hours",
+              "Duration": "21:00",
+              "Wage Amount": "882.00",
+              "Edited Days": "0.00"
+            },
+            {
+              "PayCode Name": "All Regular",
+              "Duration": "63:30",
+              "Wage Amount": "2,667.00",
+              "Edited Days": "0.00"
+            },
+            {
+              "PayCode Name": "EESDDE100",
+              "Duration": "13:00",
+              "Wage Amount": "546.00",
+              "Edited Days": "0.00"
+            },
+            {
+              "PayCode Name": "Regular",
+              "Duration": "63:30",
+              "Wage Amount": "2,961.00",
+              "Edited Days": "0.00"
+            },
+            {
+              "PayCode Name": "z Total Base Hours not needed",
+              "Duration": "8:00",
+              "Wage Amount": "336.00",
+              "Edited Days": "0.00"
+            },
+            {
+              "PayCode Name": "Regular Hours",
+              "Duration": "8:00",
+              "Wage Amount": "336.00",
+              "Edited Days": "0.00"
+            },
+            {
+              "PayCode Name": "Total Compensation",
+              "Duration": "24:30",
+              "Wage Amount": "336.00",
+              "Edited Days": "0.00"
+            },
+            {
+              "PayCode Name": "Total Hours Worked",
+              "Duration": "8:00",
+              "Wage Amount": "336.00",
+              "Edited Days": "0.00"
+            },
+            {
+              "PayCode Name": "Unapproved Overtime Hours",
+              "Duration": "16:30",
+              "Wage Amount": "0.00",
+              "Edited Days": "0.00"
+            },
+            {
+              "PayCode Name": "Unapproved Time",
+              "Duration": "7:00",
+              "Wage Amount": "294.00",
+              "Edited Days": "0.00"
+            }
+          ]
+        }
+      }
+    ],
+    "Extension Points": {
+      "PostCascading": [
+        {
+          "Extension Name": "AdjustRule",
+          "Effective Date Range": [
+            {
+              "Start Date": "1/01/1753",
+              "End Date": "1/01/3000"
+            }
+          ]
+        }
+      ],
+      "PostBonuses": [
+        {
+          "Extension Name": "AdjustRule",
+          "Effective Date Range": [
+            {
+              "Start Date": "1/01/1753",
+              "End Date": "1/01/3000"
+            }
+          ]
+        }
+      ]
+    }
+  }
