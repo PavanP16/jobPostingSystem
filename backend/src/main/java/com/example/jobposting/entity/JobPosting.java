@@ -2,6 +2,8 @@ package com.example.jobposting.entity;
 
 import jakarta.persistence.*;
 
+import java.util.Date;
+
 @Entity
 public class JobPosting {
 
@@ -11,16 +13,24 @@ public class JobPosting {
     private String title;
     private String description;
     private String department;
+    private Date startDate;
+    private float salary;
+    private int experienceRequired;
+    private int no_of_applied;
 
     // Constructors, getters, and setters
 
     public JobPosting() {
     }
 
-    public JobPosting(String title, String description, String department) {
+    public JobPosting(String title, String description, String department, Date startDate, float salary, int experienceRequired, int no_of_applied) {
         this.title = title;
         this.description = description;
         this.department = department;
+        this.startDate = startDate;
+        this.salary = salary;
+        this.experienceRequired = experienceRequired;
+        this.no_of_applied = no_of_applied;
     }
 
     public Long getId() {
@@ -54,4 +64,20 @@ public class JobPosting {
     public void setDepartment(String department) {
         this.department = department;
     }
+
+    public Date getStartDate() {return startDate;}
+
+    public void setStartDate(Date startDate) {this.startDate = startDate;}
+
+    public float getSalary() {return salary;}
+
+    public void setSalary(float salary) {this.salary = salary;}
+
+    public int getExperienceRequired() {return experienceRequired;}
+
+    public void setExperienceRequired(int experienceRequired) {this.experienceRequired = experienceRequired;}
+
+    public int getNo_of_applied() {return no_of_applied;}
+
+    public void setNo_of_applied(int no_of_applied) {this.no_of_applied = no_of_applied;}
 }

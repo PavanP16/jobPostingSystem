@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/jobpostings")
+@RequestMapping("/jobs")
 public class JobPostingController {
 
     @Autowired
@@ -25,4 +25,6 @@ public class JobPostingController {
     public List<JobPosting> listJobPostings() {
         return jobPostingRepository.findAll();
     }
+
+
 }

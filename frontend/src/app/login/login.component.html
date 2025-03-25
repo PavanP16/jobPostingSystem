@@ -1,7 +1,7 @@
 <div class="h-100 cn">
   <div class="c">
     <h1 class="title">JOB POSTING</h1>
-    <div class="Iholder">
+    <div class="Iholder" *ngIf="isRegistrationPhase">
       <p>Username</p>
       <input type="text" placeholder="Enter your Username" />
     </div>
@@ -15,6 +15,21 @@
     </div>
     <button class="b">LOGIN</button>
 
-    <p class="mt-3 text-right text-[0.6rem]">&#64;UKG Inc</p>
+    <p class="mt-4 text-center" *ngIf="isRegistrationPhase">
+      Already a user ?<span
+        class="ml-2 hover:text-blue-500 hover:underline hover:cursor-pointer"
+        (click)="toggleRegistrationPhase()"
+        >Login</span
+      >
+    </p>
+    <p class="mt-4 text-center" *ngIf="!isRegistrationPhase">
+      New Here ?<span
+        class="ml-2 hover:text-amber-500 hover:underline hover:cursor-pointer"
+        (click)="toggleRegistrationPhase()"
+        >Register</span
+      >
+    </p>
+
+    <p class="relative top-1 right-0 text-right text-[0.6rem]">&#64;UKG Inc</p>
   </div>
 </div>
