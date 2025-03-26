@@ -12,6 +12,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/candidates")
+@CrossOrigin(origins = "*", allowedHeaders = "*", methods = {RequestMethod.POST, RequestMethod.GET})
 public class CandidateController {
 
     @Autowired
@@ -41,10 +42,8 @@ public class CandidateController {
 }
 
 class LoginRequest {
-    
     private String email;
     private String password;
-
     public String getEmail() {
         return email;
     }

@@ -10,6 +10,16 @@ export class ApiService {
 
   constructor(private http: HttpClient) { }
 
+  login(email: string, password: string) {
+    const loginData = { email, password };
+    return this.http.post(`${this.apiUrl}/candidates/login`, loginData , {responseType : 'text'});
+  }
+
+  register(username: string, email: string, password: string) {
+    const registerData = { username, email, password };
+    return this.http.post(`${this.apiUrl}/candidates`, registerData ,{responseType : 'text'});
+  }
+
   listCandidates() {
     return this.http.get(`${this.apiUrl}/candidates`);
   }

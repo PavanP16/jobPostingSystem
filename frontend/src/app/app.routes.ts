@@ -1,10 +1,10 @@
-import { Routes } from '@angular/router';
+import { RouterModule, Routes } from '@angular/router';
 import { RegisterCandidateComponent } from './register-candidate/register-candidate.component';
 import { ListCandidatesComponent } from './list-candidates/list-candidates.component';
 import { CreateJobPortalComponent } from './create-job-portal/create-job-portal.component';
 import { ListJobPortalsComponent } from './list-job-portals/list-job-portals.component';
 import { LoginComponent } from './login/login.component';
-import { AuthGuard } from './auth.guard';
+import { NgModule } from '@angular/core';
 
 export const routes: Routes = [
   {
@@ -30,3 +30,11 @@ export const routes: Routes = [
     component: LoginComponent
   },
 ]
+
+
+@NgModule({
+  imports: [RouterModule.forRoot(routes)],
+  exports: [RouterModule]
+})
+
+export class AppRoutingModule { }
