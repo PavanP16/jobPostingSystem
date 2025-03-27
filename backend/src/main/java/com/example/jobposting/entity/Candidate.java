@@ -19,10 +19,10 @@ public class Candidate {
     public Candidate() {
     }
 
-    public Candidate(String name, String email, String skills) {
+    public Candidate(String name, String email, String password) {
         this.name = name;
         this.email = email;
-        this.password = skills;
+        this.password = password;
     }
 
     public Long getId() {

@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { toast } from 'ngx-sonner';
 import { Router, RouterModule } from '@angular/router';
 
 @Component({
@@ -9,6 +10,7 @@ import { Router, RouterModule } from '@angular/router';
 })
 export class NavbarComponent {
 
+  protected readonly toast = toast;
  
 
 }

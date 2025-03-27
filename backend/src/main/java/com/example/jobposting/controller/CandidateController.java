@@ -20,6 +20,7 @@ public class CandidateController {
 
     @PostMapping
     public ResponseEntity<String> registerCandidate(@RequestBody Candidate candidate) {
+        System.out.println(candidate);
         candidateService.saveCandidate(candidate);
         return new ResponseEntity<>("Candidate registered successfully", HttpStatus.OK);
     }

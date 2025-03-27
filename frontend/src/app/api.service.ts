@@ -15,8 +15,8 @@ export class ApiService {
     return this.http.post(`${this.apiUrl}/candidates/login`, loginData , {responseType : 'text'});
   }
 
-  register(username: string, email: string, password: string) {
-    const registerData = { username, email, password };
+  register(name: string, email: string, password: string) {
+    const registerData = {  name, email, password };
     return this.http.post(`${this.apiUrl}/candidates`, registerData ,{responseType : 'text'});
   }
 

@@ -18,7 +18,7 @@ export class LoginComponent {
   
   email = '';
   password = '';
-  username = '';
+  name = '';
 
   constructor(private apiService: ApiService, private router: Router) {
       console.log(router.url);
@@ -53,13 +53,15 @@ export class LoginComponent {
 
   register() {
 
-    if(this.email === "" || this.username === "" || this.password === ""){
+    if(this.email === "" || this.name === "" || this.password === ""){
       toast.warning("Fill all the fields");
       return ;
     }
 
+    console.log(this.email,this.password,this.name);
 
-    this.apiService.register(this.username, this.email, this.password).subscribe(
+
+    this.apiService.register(this.name, this.email, this.password).subscribe(
       (response : string) => {
         console.log('Registration successful');
         toast.success('Registered successfully')
