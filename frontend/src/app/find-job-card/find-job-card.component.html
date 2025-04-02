@@ -15,14 +15,17 @@
   </div>
   <div class="flex justify-between items-center mt-3">
     <div class="flex flex-col gap-1">
-      <h2 class="tracking-wide text-xl font-bold">Software Engineer</h2>
-      <h6 class="font-bold tracking-wide" style="color: #99a1af">
-        Ultimate Kronos Group
-      </h6>
+      <h2 class="tracking-wide text-xl font-bold">{{job.title}}</h2>
+      <h5 class="font-bold tracking-wide" style="color: #99a1af">
+        {{job.department}}
+      </h5>
+      <p class="font-light text-sm tracking-wide text-black">
+        {{job.description}}
+      </p>
     </div>
   </div>
 
-  <div class="-mt-6">
+  <div class="-mt-10">
     <div class="flex flex-wrap mt-5 gap-8">
       <div class="flex flex-col gap-2">
         <div class="flex gap-1">
@@ -35,7 +38,7 @@
             >Joining Date</span
           >
         </div>
-        <p class="ml-1 text-sm font-thin">25th July, 2025</p>
+        <p class="ml-1 text-sm font-thin">{{job.startDate}}</p>
       </div>
       <div class="flex flex-col gap-2">
         <div class="flex gap-1">
@@ -48,7 +51,7 @@
             >Salary</span
           >
         </div>
-        <p class="ml-1 text-sm font-thin tracking-wide">₹ 5000</p>
+        <p class="ml-1 text-sm font-thin tracking-wide">₹ {{job.salary}}</p>
       </div>
       <div class="flex flex-col gap-2">
         <div class="flex gap-1">
@@ -57,7 +60,7 @@
             >Experience</span
           >
         </div>
-        <p class="ml-1 text-sm font-thin tracking-wide">5 Years</p>
+        <p class="ml-1 text-sm font-thin tracking-wide">{{job.experienceRequired}} Years</p>
       </div>
     </div>
 
@@ -65,7 +68,6 @@
     <div class="flex relative flex-row justify-between">
       <button
         class="bg-gray-900 hover:bg-gray-600 text-white tracking-wider py-2 px-4 rounded focus:outline-none focus:shadow-outline"
-        (onclick)="(handleClick)"
       >
         Apply
       </button>
@@ -78,12 +80,11 @@
             color="#0000000"
           />
           <span class="text-sm font-medium text-zinc-500 tracking-wide"
-            >Applicants : </span
-          >
+            >Applicants :
+          </span>
         </div>
-        <p class="ml-1 text-sm font-medium tracking-wide">5</p>
+        <p class="ml-1 text-sm font-medium tracking-wide">{{job.no_of_applied}}</p>
       </div>
-
     </div>
   </div>
 </div>

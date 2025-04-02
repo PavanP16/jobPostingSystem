@@ -14,11 +14,24 @@
 
     <div class="Iholder D">
       <p>Password</p>
-      <input type="password" [(ngModel)]="password" placeholder="Enter your Password" />
+      <input
+        type="password"
+        [(ngModel)]="password"
+        placeholder="Enter your Password"
+      />
     </div>
 
-    <button class="b" *ngIf="isRegistrationPhase" (click)="register()">REGISTER</button>
-    <button class="b" *ngIf="!isRegistrationPhase" (click)="login()">LOGIN</button>
+    <div class="Iholder" *ngIf="isRegistrationPhase">
+      <p>Skills</p>
+      <input type="text" [(ngModel)]="skills" placeholder="Enter your Skills" />
+    </div>
+
+    <button class="b" *ngIf="isRegistrationPhase" (click)="register()">
+      REGISTER
+    </button>
+    <button class="b" *ngIf="!isRegistrationPhase" (click)="login()">
+      LOGIN
+    </button>
 
     <p class="mt-4 text-center" *ngIf="isRegistrationPhase">
       Already a user ?<span

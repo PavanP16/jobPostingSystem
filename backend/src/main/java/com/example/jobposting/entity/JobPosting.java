@@ -13,7 +13,7 @@ public class JobPosting {
     private String title;
     private String description;
     private String department;
-    private Date startDate;
+    private String startDate;
     private float salary;
     private int experienceRequired;
     private int no_of_applied;
@@ -23,7 +23,7 @@ public class JobPosting {
     public JobPosting() {
     }
 
-    public JobPosting(String title, String description, String department, Date startDate, float salary, int experienceRequired, int no_of_applied) {
+    public JobPosting(String title, String description, String department, String startDate, float salary, int experienceRequired, int no_of_applied) {
         this.title = title;
         this.description = description;
         this.department = department;
@@ -65,9 +65,9 @@ public class JobPosting {
         this.department = department;
     }
 
-    public Date getStartDate() {return startDate;}
+    public String getStartDate() {return startDate;}
 
-    public void setStartDate(Date startDate) {this.startDate = startDate;}
+    public void setStartDate(String startDate) {this.startDate = startDate;}
 
     public float getSalary() {return salary;}
 

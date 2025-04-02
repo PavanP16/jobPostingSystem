@@ -14,15 +14,17 @@ public class Candidate {
     private String name;
     private String email;
     private String password;
+    private String skills;
 
     // Constructors, getters, and setters
     public Candidate() {
     }
 
-    public Candidate(String name, String email, String password) {
+    public Candidate(String name, String email, String password, String skills) {
         this.name = name;
         this.email = email;
         this.password = password;
+        this.skills = skills;
     }
 
     public Long getId() {
@@ -55,5 +57,13 @@ public class Candidate {
 
     public void setPassword(String password) {
         this.password = password;
+    }
+
+    public String getSkills(){
+        return skills;
+    }
+
+    public void setSkills(String skills){
+        this.skills = skills;
     }
 }

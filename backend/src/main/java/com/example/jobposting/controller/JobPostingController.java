@@ -11,6 +11,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/jobs")
+@CrossOrigin(origins = "*", allowedHeaders = "*", methods = {RequestMethod.POST, RequestMethod.GET})
 public class JobPostingController {
 
     @Autowired

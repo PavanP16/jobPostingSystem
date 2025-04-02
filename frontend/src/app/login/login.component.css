@@ -12,7 +12,7 @@
     width: 25vw;
     padding-top: 2rem;
     padding-inline: 2rem;
-    margin-top: -3rem;
+    margin-top:1rem;
     border-radius: 5px;
     box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
 }
@@ -41,10 +41,10 @@ input {
     margin-top: -5px;
   }
   
-  input:focus {
-    background-color: #eaeaea; /* Slightly darker gray when focused */
-    border-color: #888; /* Optional: Change border color on focus */
-  }
+input:focus {
+    background-color: #eaeaea; 
+    border-color: #888; 
+}
   
 
 .D{

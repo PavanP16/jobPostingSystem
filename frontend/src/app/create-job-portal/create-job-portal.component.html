@@ -1,13 +1,13 @@
-<form (ngSubmit)="onSubmit()">
-  <div class="w-[60vw] h-[70vh] mx-auto mt-8 border p-4 rounded">
+<form [formGroup]="jobForm">
+  <div class="w-[60vw] mb-20 mx-auto mt-8 border p-4 rounded">
     <h2 class="text-2xl font-semibold mb-4">Job Posting Form</h2>
 
     <!-- Job Title -->
     <div class="mb-4">
-      <label for="jobTitle" class="block text-gray-600">Job Title</label>
+      <label for="title" class="block text-gray-600">Job Title</label>
       <input
-        formControlName="jobTitle"
-        id="jobTitle"
+        formControlName="title"
+        id="title"
         type="text"
         class="form-input mt-2 block w-[30vw] outline-none border rounded-lg focus:border-gray-500 p-2"
         required
@@ -16,23 +16,35 @@
 
     <!-- Company Name -->
     <div class="mb-4">
-      <label for="companyName" class="block text-gray-600">Company Name</label>
+      <label for="department" class="block text-gray-600">Company Name</label>
       <input
-        formControlName="companyName"
-        id="companyName"
+        formControlName="department"
+        id="department"
         type="text"
         class="form-input mt-2 block w-[30vw] outline-none border rounded-lg focus:border-gray-500 p-2"
         required
       />
     </div>
 
+    <!-- Description -->
+    <div class="mb-4">
+      <label for="description" class="block text-gray-600">Description</label>
+      <textarea
+        formControlName="description"
+        id="description"
+        type="text"
+        class="form-input mt-2 block w-[30vw] outline-none border rounded-lg focus:border-gray-500 p-2"
+        required
+      ></textarea>
+    </div>
+
     <!-- Joining Date -->
     <div class="mb-4">
-      <label for="joiningDate" class="block text-gray-600">Joining Date</label>
+      <label for="startDate" class="block text-gray-600">Joining Date</label>
       <input
-        formControlName="joiningDate"
-        id="joiningDate"
-        type="date"
+        formControlName="startDate"
+        id="startDate"
+        type="text"
         class="form-input mt-2 block w-fit outline-none border rounded-lg focus:border-gray-500 p-2"
         required
       />
@@ -52,12 +64,12 @@
 
     <!-- Experience -->
     <div class="mb-4">
-      <label for="experience" class="block text-gray-600"
-        >Experience (Years)</label
+      <label for="experienceRequired" class="block text-gray-600"
+        > Experience (Years)</label
       >
       <input
-        formControlName="experience"
-        id="experience"
+        formControlName="experienceRequired"
+        id="experienceRequired"
         type="number"
         class="form-input mt-2 block w-[30vw] outline-none border rounded-lg focus:border-gray-500 p-2"
         required
@@ -67,8 +79,9 @@
     <!-- Submit Button -->
     <div class="mt-16">
       <button
-        type="submit"
+        type="button"
         class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600"
+        (click)="Submit()"
       >
         Post Job
       </button>

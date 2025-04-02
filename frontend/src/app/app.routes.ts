@@ -5,25 +5,29 @@ import { CreateJobPortalComponent } from './create-job-portal/create-job-portal.
 import { ListJobPortalsComponent } from './list-job-portals/list-job-portals.component';
 import { LoginComponent } from './login/login.component';
 import { NgModule } from '@angular/core';
+import { AuthGuard } from './auth.guard';
 
 export const routes: Routes = [
   {
     path: 'register-candidate',
-    component: RegisterCandidateComponent
+    component: RegisterCandidateComponent,
+    canActivate: [AuthGuard], data: { role: 'user' }
   },
   {
     path: 'list-candidates',
-    component: ListCandidatesComponent
+    component: ListCandidatesComponent,
+    canActivate: [AuthGuard], data: { role: 'user' }
   },
   {
     path: 'create-job-portal',
     component: CreateJobPortalComponent,
-    // canActivate: [AuthGuard],
-    // data: { roles: ['admin'] } 
+    canActivate: [AuthGuard], data: { role: 'admin' }
   },
   {
     path: 'list-job-portals',
-    component: ListJobPortalsComponent
+    component: ListJobPortalsComponent,
+    canActivate: [AuthGuard], data: { role: 'user' }
+
   },
   {
     path: '',
