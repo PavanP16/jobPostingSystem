@@ -13,7 +13,7 @@ import { FormsModule } from '@angular/forms';
 })
 export class LoginComponent {
   protected readonly toast = toast;
-  isRegistrationPhase = true; // Set this based on your application logic
+  isRegistrationPhase = false; // Set this based on your application logic
 
   email = '';
   password = '';
@@ -73,6 +73,7 @@ export class LoginComponent {
         (response: string) => {
           console.log('Registration successful');
           toast.success('Registered successfully');
+          localStorage.setItem('userRole', 'user');
           this.router.navigate(['/list-job-portals']);
         },
         (error) => {
